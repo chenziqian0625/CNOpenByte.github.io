@@ -1,1 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>自动跳转</title>
+  <script type="text/javascript">
+    window.location.href = "https://pd.qq.com/s/cvd1w3tas";
+  </script>
+</head>
+<body>
+  <!-- 这是跳转前显示的内容，可根据需要添加 -->
+  <h1>正在跳转，请稍候...</h1>
+</body>
+</html>
 
