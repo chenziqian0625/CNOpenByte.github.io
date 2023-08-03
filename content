@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: auto;">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="/assets/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/adminlte.min.css">
+
+    <link rel="stylesheet" href="/assets/policy.css">
+
+    <script src="/assets/jquery.min.js"></script>
+    <script src="/assets/bootstrap.bundle.min.js"></script>
+    <script src="/assets/adminlte.min.js"></script>
+    <title>内容策略 | OpenFrp开放映射</title>
+
+    <style>
+        nav a {
+            padding-left: 1rem !important;
+        }
+    </style>
+</head>
+
+<body class="layout-top-nav layout-navbar-fixed" style="height: auto;">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+            <div class="container">
+                <a href="/" class="navbar-brand">
+                    <span class="brand-text font-weight-light">OpenFrp</span>
+                </a>
+                <button class="navbar-toggler order-1" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="//console.openfrp.net/home/dashboard" class="nav-link">管理面板</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/policy" class="nav-link">服务条款</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/content" class="nav-link">内容策略</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/privacy" class="nav-link">隐私策略</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/contact" class="nav-link">联系方式</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/license" class="nav-link">开源组件</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="//github.com/ZGIT-Network/OPENFRP-APIDOC" class="nav-link">API文档</a>
+                        </li>
+                        <!--<li class="nav-item">
+                            <a href="/rule" class="nav-link">规则说明</a>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Content -->
+        <div class="content-wrapper" style="min-height: 592px;">
+            <div class="content" style="padding-top: 16px;">
+                <style type="text/css">
+                    .card-title {
+                        padding-top: 4px;
+                    }
+
+                    .content ul {
+                        margin-top: 8px;
+                    }
+
+                    h5 {
+                        margin-top: 8px;
+                    }
+                </style>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            <div class="card">
+                                <div class="card-header border-0">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">
+                                            OpenFrp 内容策略 -
+                                            <b>2023/6/22 更新</b>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card-body" style="padding-top: 0;">
+                                    在使用本平台提供的一切服务前，请务必仔细阅读并理解透彻本策略。用户选择使用本平台即表示完全认可此策略及其可能随时更新的内容，并自愿承担违反内容策略造成的后果
+                                    <br><br>
+                                    <b>本平台保留随时修改内容策略的权利，用户在使用本平台提供的服务时，有必要对最新的内容策略进行仔细阅读和重新确认，当发生有关争议时，以最新的内容策略为准</b>
+                                    </div>
+                                   </div>
+                                   <div class="card">
+                                       <div class="card-header border-0">
+                                    <div class="d-flex justify-content-between">
+                                        
+                                    </div>
+                                </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                    <h5><b>严禁穿透的内容</b></h5>
+                                    用户在使用本平台服务的过程中，<b>严禁</b> 穿透下列内容，一经发现<b>直接封禁账户并向公安机关报案</b>
+                                    <ul>
+                                        <li>反对宪法所确定的基本原则的</li>
+                                        <li>危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的</li>
+                                        <li>损害国家荣誉和利益的</li>
+                                        <li>煽动民族仇恨、民族歧视，破坏民族团结的</li>
+                                        <li>破坏国家宗教政策，宣扬邪教和封建迷信的</li>
+                                        <li>散布谣言，扰乱社会秩序，破坏社会稳定的</li>
+                                        <li>涉及 <b>赌博、彩票、诈骗</b> 的</li>
+                                        <li>散布 <b>淫秽、色情、赌博、暴力、凶杀、恐怖内容</b> 或 <b>教唆犯罪</b> 的</li>
+                                        <li>侮辱或者诽谤他人，侵害他人合法权益的</li>
+                                        <li>含有法律、行政法规禁止的其他内容的</li>
+                                    </ul>
+                                    <h5><b>禁止穿透的内容</b></h5>
+                                    除上述内容之外，<b>不得</b> 穿透下列内容，首次发现 <b>封禁隧道</b> 作为警告，再次发现 <b>封禁账户</b> 并视情况 向公安机关报案<br /><br />
+                                    同账户下存在大量违规隧道或是违规情节严重的，可能 <b>直接封禁账户</b>。
+                                    <ul>
+                                        <li>
+                                            色情、暴恐、恶心、政治敏感内容，包括但不限于各类图片、影音、文字
+                                            <br>
+                                            图片鉴别参考标准 (仅供参考, 实际的判定标准可能有所不同) 为 <a
+                                                href="https://ai.baidu.com/tech/imagecensoring"
+                                                target="_blank">百度图像审核</a> 鉴别结果中出现下列之一:
+                                            <ul style="margin-top: 0;">
+                                                <li>除性感、亲密行为外的色情标签</li>
+                                                <li>除警察部队、爆炸火灾、军事武器、枪械、车祸、弹药、刀具、武装人员、特殊服饰外的暴恐标签</li>
+                                                <li>任意政治敏感标签</li>
+                                                <li>任意恶心图标签</li>
+                                            </ul>
+                                        </li>
+                                        <li>科学上网（俗称“翻墙”）相关内容，包括但不限各类网站、博客、论坛</li>
+                                        <li>
+                                            病毒、木马、远程控制相关内容，包括但不限于各类远程控制程序的服务端、网站、博客、论坛
+                                            <br>
+                                            (注：在对方知情并同意的情况下使用远程桌面、VNC、SSH 等应用不在此范围内)
+                                        </li>
+                                        <li><strong>任何形式的 V*N 服务</strong>、<strong>正向代理服务</strong>
+                                            <ul>
+                                            <li>不论用途、不论是否在中国内地使用、不论是否跨境，一经发现即视为违规</li>
+                                            <li>包括但不限于：各类 V*N 应用（如 EasyConnect、AnyConnect）和各类正向代理协议（如 HTTP 代理、Socks、Shadowsocks）</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>涉及政治敏感</strong>、<strong>不适宜公开讨论</strong> 的内容，包括但不限于：
+                                            <ul>
+                                                <li>搭建相关话题的网站、博客、论坛</li>
+                                                <li>个人博客、论坛中出现相关话题、文章也视为违规</li>
+                                            </ul>
+                                        </li>
+                                        <li>其他本平台认定不适合通过本平台进行穿透的内容</li>
+                                        
+                                    </ul>
+                                    <strong>本平台有权对违反以上协定的用户移交公安或相关机关予以处罚或者提起诉讼！</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="main-footer">
+            <strong>
+                Copyright © 2021-2023 <a href="//www.openfrp.net/">OpenFrp | ZGIT Network</a>
+                .
+            </strong>
+            All rights reserved.&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" target="_blank"> 湘ICP备2021009274号-3</a>
+            <div class="float-right d-none d-sm-inline-block">
+                Powered by <b>ZGIT Network</b>
+                | <b>OpenFrp</b>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

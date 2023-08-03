@@ -1,0 +1,515 @@
+<!--Copyright © 2023 Yunmoan # ZGIT.-->
+
+<!--此 UI 仅限 OpenByte 使用-->
+
+<!--本页面未使用第三方 UI 组件库，可自行查证引用列表-->
+
+<!--此UI暂未授权任何第三方使用-->
+
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+	<head>
+
+		<meta charset="UTF-8">
+
+		<title>OpenByte 开放字节 _Minecraft我的世界_开发调试_NAS_无需公网_免备案</title>
+
+		<meta name="keywords"
+			  content="Open,OpenByte,内网穿透,免费frp,免费内网穿透,frp,内网映射,MC联机,公网IP,Nat映射,端口映射,NAS,Minecraft,我的世界,开服,映射,监控管理,本地建站,网站搭建,反向代理,免费内网穿透,微信开发,我的世界内网穿透,我的世界内网映射,nat123,ngrok,路由侠,花生壳,natapp,natfrp">
+
+		<meta name="description"
+			  content="OpenByte 是一个网络渗透组织。">
+
+		<meta http-equiv="X-UA-Compatible"
+			  content="IE=edge">
+
+		<link rel="icon"
+			  type="image/x-icon"
+			  href="assets/OpenByteLogo512.png">
+
+		<meta name="viewport"
+			  content="width=device-width,shrink-to-fit=no">
+
+		<link href="assets/style.css"
+			  rel="stylesheet">
+
+		<link href="//cdn.bootcdn.net/ajax/libs/font-awesome/6.3.0/css/all.css"
+			  rel="stylesheet">
+
+		<link href="assets/fullpage.min.css"
+			  rel="stylesheet">
+
+		<link rel="stylesheet"
+			  href="assets/animate.min.css" />
+
+	</head>
+
+	<body>
+
+		<nav class="navigation menu wow animate__slideInDown">
+
+			<ul id="menu">
+
+				<li>
+					<text class="siteName">OpenByte</text>
+				</li>
+
+				<li data-menuanchor="home">
+					<a href="#home">首页</a>
+				</li>
+
+				<li data-menuanchor="introduce">
+					<a href="#introduce">介绍</a>
+				</li>
+
+				<li data-menuanchor="why">
+					<a href="#special">特色</a>
+				</li>
+
+				<li data-menuanchor="info">
+					<a href="#info">关于</a>
+				</li>
+
+			</ul>
+
+			<div>
+
+				<a class="right btn"
+				   href="//pd.qq.com/s/cvd1w3tas">OpenByte</a>
+
+			</div>
+
+		</nav>
+
+		<div id="fullpage"
+			 class="main">
+
+			<div class="section active page-1"
+				 data-anchor="home">
+
+				<div class="left-text">
+
+					<h2 class="maintext wow animate__fadeInUp"
+						data-wow-duration="0.5s"
+						data-wow-delay="0s">OpenByte 开放字节
+
+					</h2>
+
+					<h3 class="middletext wow animate__fadeInUp "
+						data-wow-duration="1s"
+						data-wow-delay="0s">渗透、高效、压力</h3>
+
+					<div class="actions wow animate__fadeInUp"
+						 data-wow-duration="1s"
+						 data-wow-delay="0s">
+
+						<a href="/home/dashboard"
+						   class="btn">点击进群</a>
+
+					</div>
+
+				</div>
+
+				<a class="float-down"
+				   href="#introduce">
+					<i class="fa-sharp fa-solid fa-angle-down"></i>
+				</a>
+
+			</div>
+
+			<div class="section page-2"
+				 data-anchor="introduce">
+
+				<div class="right-text">
+
+					<div class="middletext">为什么你需要压力测试？</div>
+
+					<div class="text">测试网站的稳定性以便于正常请求……
+						<br>帮助网站更好的管理</div>
+
+				</div>
+
+			</div>
+
+			<div class="section page-3"
+				 data-anchor="special">
+
+				<div class="left-text">
+
+					<div class="middletext">为什么选择OpenByte?</div>
+
+					<div class="card-container">
+
+						<div class="card">
+
+							<h2>多功能</h2>
+
+							<p>支持多种 L4,L7 压力测试,各种绕过方法。</p>
+
+						</div>
+
+						<div class="card">
+
+							<h2>更易于使用</h2>
+
+							<p>l7脚本采用nodejs 多种穿盾脚本,l4c,c++伪造专业使用
+
+								或通过一条命令一键启动，启动器操作方式与其他压力测试工具保持一致，确保易于上手。</p>
+
+						</div>
+
+						<div class="card">
+
+							<h2>高效迅速</h2>
+
+							<p>我们拥有超过20+的来自自购或赞助商赞助的世界各地的节点服务器，确保低延迟，高可用的使用体验，保证您的需求能够得到满足。</p>
+
+						</div>
+
+						<div class="card">
+
+							<h2>高效性能</h2>
+
+							<p>拥有20+ 10Gdps/s 专业伪造扫描发包机</p>
+
+							<p class="small">* 基于 Naive UI 的面板仍在开发中，敬请期待</p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="section page-4"
+				 data-anchor="info">
+
+				<canvas id="canvas"></canvas>
+
+				<div class="left-text">
+
+					<div class="middletext">OpenByte 由 WIFES 运营</div>
+
+					<div class="text">在本站登录或注册即意味着您同意我们的 <a href="/privacy"
+						   class="protocol"
+						   target="_blank">隐私政策</a> 和 <a href="/policy"
+						   class="protocol"
+						   target="_blank">服务条款</a>
+					</div>
+
+					<div class="text">
+						<br>注册用户: <span id="user">0</span> | 服务器节点数：<span id="node">0</span> | 总计隧道数：<span id="proxy">0</span> | 服务状态：<text style="color:#48A43F;">正常</text>
+					</div>
+
+				</div>
+
+
+
+				<div class="fp-auto-height">
+
+					<footer id="footer">
+
+						<div>
+
+							<div class="footer">
+
+								<div class="footer-content">
+
+									<div class="footer-logo">
+
+										<div style="display: flex;align-items: center;">
+											<a href="//www.zyghit.cn"
+											   target="_blank">
+												<img width="330"
+													 height="70"
+													 src="assets/ZGIT-Network.png"
+													 alt=""
+													 class="logo-bigger" />
+											</a>
+										</div>
+
+										<div></div>
+
+									</div>
+
+									<div>
+
+										<div class="m-footer-link">
+
+											<div class="m-footer-protocol">
+
+												<div style="text-align: center;">
+													<a href="/privacy"
+													   class="protocol"
+													   target="_blank">隐私政策</a> |
+
+													<a href="//docs.OpenByte.net/"
+													   rel="nofollow"
+													   class="protocol"
+													   target="_blank">使用文档</a> | <a href="//jq.qq.com/?_wv=1027&k=RLIeJ3tW"
+													   rel="nofollow"
+													   class="protocol"
+													   target="_blank">用户交流</a> | <a href="mailto:support@OpenByte.net"
+													   rel="nofollow"
+													   target="_blank"
+													   class="contract-us protocol">联系我们</a>
+
+												</div>
+
+											</div>
+
+										</div>
+
+										<div class="m-icp">
+											<a href="//1.1.1.1/"
+											   target="_blank"> Server DDos</a>
+										</div>
+
+										<div class="m-copyright"> &copy; 2021-2023 亚马逊开放字节公司保留一切权利 
+											<br>
+
+											<a href="//www.baisheng.biz/"
+											   target="_blank">开放字节有限公司</a>
+
+											共同运营
+
+
+
+										</div>
+
+									</div>
+
+									<div class="footer-info">
+
+										<div class="footer-link">
+
+											<div class="footer-protocol">
+
+												<div>
+													<a href="/privacy"
+													   class="protocol"
+													   target="_blank">隐私政策</a> | <a href="/policy"
+													   class="protocol"
+													   target="_blank">服务条款</a> |
+
+													<a href="//docs.OpenByte.net/"
+													   rel="nofollow"
+													   class="protocol"
+													   target="_blank">使用文档</a> | <a href="//jq.qq.com/?_wv=1027&k=RLIeJ3tW"
+													   rel="nofollow"
+													   class="protocol"
+													   target="_blank">用户交流</a>| <a href="//www.zyghit.cn/report/"
+													   rel="nofollow"
+													   class="protocol"
+													   target="_blank">公正廉洁举报</a> | <a href="mailto:support@OpenByte.net"
+													   rel="nofollow"
+													   target="_blank"
+													   class="contract-us protocol">联系我们</a>| <a href="mailto:yunmoan@zyghit.cn"
+													   rel="nofollow"
+													   target="_blank"
+													   class="join-us protocol">加入我们</a>
+
+												</div>
+
+											</div>
+
+										</div>
+
+										<div class="footer-advice">
+
+											<p class="advice-info">
+
+												任何内容请遵守国家互联网信息管理办法规定。本站可能与老旧浏览器不兼容。</p>
+
+											<div class="inline-info">
+												<a href="//beian.miit.gov.cn/"
+												   target="_blank"> Server DDos</a>
+												<span class="split-line"> |
+
+												</span>
+												<a href="//cfu.OpenByte.net"
+												   rel="nofollow"
+												   class="footer-filing-item"
+												   target="_blank">
+
+													CFU 统一识别编码：NMSL</a>
+
+											</div>
+
+											<div class="footer-filing">
+
+												<div class="footer-filing-tip">
+													<a href="//www.12377.cn/"
+													   target="_blank">网上有害信息举报专区</a>
+													<span class="split-line"> | </span>
+
+													<a href="//space.bilibili.com/359721188"
+													   target="_blank">BiliBili</a>
+
+													<span class="split-line"> | </span>
+													<a href="//afdian.net/a/zgitnetwork"
+													   target="_blank">官方爱发电</a>
+													<span class="split-line"> | </span>
+													<a href="//www.mcsmanager.com/"
+													   target="_blank">MCSManager</a>
+													<span class="split-line"> | </span>
+
+												</div>
+
+											</div>
+
+											<div class="footer-tip"> 全国警方反诈劝阻电话“96110”系专门针对避免您财产被骗受损而设，请您一旦收到来电，立即接听
+
+											</div>
+
+
+
+											<div class="copyright"> &copy; 2021-2023 亚马逊开放字节(OpenByte) 保留一切权利 · 亚马逊开放字节
+
+												<a href="//www.baisheng.biz/"
+												   target="_blank"></a>
+
+												共同运营<span class="split-line"> |
+
+												</span> 本站已运行：<span id="span_dt_dt"
+													  style="color: #ececec;"> </span>
+
+												<script language="javascript">
+													function show_date_time() {
+																										
+																										                                                    window.setTimeout("show_date_time()", 1000);
+																										
+																										                                                    BirthDay = new Date("7/16/2021 00:00:00");
+																										
+																										                                                    today = new Date();
+																										
+																										                                                    timeold = (today.getTime() - BirthDay.getTime());
+																										
+																										                                                    sectimeold = timeold / 1000
+																										
+																										                                                    secondsold = Math.floor(sectimeold);
+																										
+																										                                                    msPerDay = 24 * 60 * 60 * 1000
+																										
+																										                                                    e_daysold = timeold / msPerDay
+																										
+																										                                                    daysold = Math.floor(e_daysold);
+																										
+																										                                                    e_hrsold = (e_daysold - daysold) * 24;
+																										
+																										                                                    hrsold = Math.floor(e_hrsold);
+																										
+																										                                                    e_minsold = (e_hrsold - hrsold) * 60;
+																										
+																										                                                    minsold = Math.floor((e_hrsold - hrsold) * 60);
+																										
+																										                                                    seconds = Math.floor((e_minsold - minsold) * 60);
+																										
+																										                                                    span_dt_dt.innerHTML = '<font style=/*color:#F4F8F4*/>' + daysold + ' 天 </font>';
+																										
+																										                                                    //'<font style=color:#F4F8F4>' + daysold + ' 天 ' + hrsold + ' 时 ' + minsold + ' 分 ' + seconds + ' 秒</font>';
+																										
+																										                                                }
+																										
+																										                                                show_date_time();
+												</script>
+
+											</div>
+
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+
+					</footer>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!--加载动画开始-->
+
+		<div id="loading"
+			 class="loading">
+
+			<div class="loading-content">
+
+				<svg t="1677684019299"
+					 class="icon"
+					 viewBox="0 0 1024 1024"
+					 version="1.1"
+					 xmlns="http://www.w3.org/2000/svg"
+					 p-id="4354"
+					 width="200"
+					 height="200">
+
+					<path d="M512 96a416 416 0 0 0 0 832v-104A312 312 0 1 1 824 512H928A416 416 0 0 0 512 96z"
+						  fill="#ffffff"
+						  fill-opacity=".9"
+						  p-id="4355"></path>
+
+				</svg>
+
+				<p>LOADING...</p>
+
+			</div>
+
+		</div>
+
+		<!--加载动画结束-->
+
+		<script src="assets/jquery-3.6.3.min.js"></script>
+
+		<script src="assets/main.js"></script>
+
+		<script src="assets/fullPage.js"></script>
+
+		<script src="/assets/wow.js"></script>
+
+		<script>
+			$(function () {
+						
+						            setTimeout(function () { document.getElementById('loading').remove() }, 1000)
+						
+						        })
+		</script>
+
+		<script>
+			$(document).ready(function () {
+						
+						            new WOW().init();
+						
+						            new fullpage('#fullpage', {
+						
+						                anchors: ['home', 'introduce', 'why', 'info'],
+						
+						                menu: '#menu',
+						
+						                // 页面切换后执行的回调函数
+						
+						                afterLoad: function (origin, destination, direction) {
+						
+						                    // 初始化 Wow.js
+						
+						                    new WOW().init();
+						
+						                }
+						
+						            });
+						
+						        });
+		</script>
+
+		<script src="assets/hx.js"></script>
+
+	</body>
+
+</html>

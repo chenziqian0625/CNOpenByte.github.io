@@ -1,0 +1,1710 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: auto;">
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+     <link rel="stylesheet" href="/assets/fontawesome.min.css">
+     <link rel="stylesheet" href="/assets/adminlte.min.css">
+
+     <link rel="stylesheet" href="/assets/policy.css">
+
+     <script src="/assets/jquery.min.js"></script>
+     <script src="/assets/bootstrap.bundle.min.js"></script>
+     <script src="/assets/adminlte.min.js"></script>
+
+     <title>开源协议 | OpenByte开放映射</title>
+
+     <style>
+          nav a {
+               padding-left: 1rem !important;
+          }
+     </style>
+</head>
+
+<body class="layout-top-nav layout-navbar-fixed" style="height: auto;">
+     <div class="wrapper">
+          <!-- Navbar -->
+          <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+               <div class="container">
+                    <a href="/" class="navbar-brand">
+                         <span class="brand-text font-weight-light">OpenByte</span>
+                    </a>
+                    <button class="navbar-toggler order-1" type="button" data-toggle="collapse"
+                         data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                         aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+                         <ul class="navbar-nav">
+                              <li class="nav-item">
+                                   <a href="//console.OpenByte.net/home/dashboard" class="nav-link">管理面板</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a href="/policy" class="nav-link">服务条款</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a href="/content" class="nav-link">内容策略</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a href="/privacy" class="nav-link">隐私策略</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a href="/contact" class="nav-link">联系方式</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a href="/license" class="nav-link">开源组件</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a href="//github.com/ZGIT-Network/OpenByte-APIDOC" class="nav-link">API文档</a>
+                              </li>
+                              <!--<li class="nav-item">
+                            <a href="/rule" class="nav-link">规则说明</a>
+                        </li>-->
+                         </ul>
+
+                    </div>
+               </div>
+          </nav>
+          <!-- Content -->
+          <div class="content-wrapper" style="min-height: 536px;">
+               <div class="content" style="padding-top: 16px;">
+                    <style type="text/css">
+                         .card-title {
+                              padding-top: 4px;
+                         }
+
+                         ol>li:not(:last-child) {
+                              margin-bottom: 5px;
+                         }
+
+                         .card-body>ol {
+                              padding-left: 32px;
+                         }
+
+                         h5 {
+                              margin-top: 8px;
+                         }
+                    </style>
+                    <div class="container-fluid">
+                         <div class="row">
+                              <div class="col-lg-2"></div>
+                              <div class="col-lg-8">
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       开源软件许可协议 -
+                                                       <b>2023/6/22 更新</b>
+
+                                                  </h3>
+                                                  Open-source software License Agreement
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <strong>ZGIT (至远·光辉信息技术)</strong> 与 <strong>衡阳百胜信息科技有限公司</strong>
+                                             （以下简称“我们”）十分尊重知识产权保护。
+                                             <br>
+                                             在 OpenByte 开发过程中，离不开许多开源项目帮助，以下是我们所使用开源组件列表极其许可协议。<br><br>
+                                             * 注意：从 OpenByte 4.0 开始，管理面板前端/后端组件均为自主开发，所使用 Frp 开源组件均为 <b>自发行版本</b>，与托管于
+                                             GitHub 的 “SakuraPanel” 等相关项目 <b>无任何关联</b>。
+                                             <br>
+                                             <br>
+                                             ZGIT (Zhiyuan Guanghui Information Technology) and Hengyang Baisheng
+                                             Information Technology Co., Ltd. (hereinafter referred to as "us") highly
+                                             respect intellectual property protection.<br>
+                                             In the OpenByte development process, we cannot do without the help of many
+                                             open source projects. The following is a list of open source components and
+                                             license agreements we use.<br>
+                                             *Note: Starting from OpenByte 4.0, the front-end/back-end components of the
+                                             management panel have been independently developed, and the Frp open source
+                                             components used are all self released versions, without any association
+                                             with related projects such as "SakuraPanel" hosted on GitHub.<br><br>Since
+                                             we
+                                             use simplified Chinese as our Working language, you can use translation
+                                             tools to translate some content. If there is infringement, please contact
+                                             the responsible team through "Contact Us".<br>
+                                        </div>
+                                   </div>
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       Frp
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/fatedier/frp<br>
+                                             <b>License:</b><br>
+                                             Apache License<br>
+                                             Version 2.0, January 2004<br>
+                                             http://www.apache.org/licenses/<br>
+                                             <br>
+                                             TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION<br>
+                                             <br>
+                                             1. Definitions.<br>
+                                             <br>
+                                             "License" shall mean the terms and conditions for use, reproduction,<br>
+                                             and distribution as defined by Sections 1 through 9 of this document.<br>
+                                             <br>
+                                             "Licensor" shall mean the copyright owner or entity authorized by<br>
+                                             the copyright owner that is granting the License.<br>
+                                             <br>
+                                             "Legal Entity" shall mean the union of the acting entity and all<br>
+                                             other entities that control, are controlled by, or are under common<br>
+                                             control with that entity. For the purposes of this definition,<br>
+                                             "control" means (i) the power, direct or indirect, to cause the<br>
+                                             direction or management of such entity, whether by contract or<br>
+                                             otherwise, or (ii) ownership of fifty percent (50%) or more of the<br>
+                                             outstanding shares, or (iii) beneficial ownership of such entity.<br>
+                                             <br>
+                                             "You" (or "Your") shall mean an individual or Legal Entity<br>
+                                             exercising permissions granted by this License.<br>
+                                             <br>
+                                             "Source" form shall mean the preferred form for making modifications,<br>
+                                             including but not limited to software source code, documentation<br>
+                                             source, and configuration files.<br>
+                                             <br>
+                                             "Object" form shall mean any form resulting from mechanical<br>
+                                             transformation or translation of a Source form, including but<br>
+                                             not limited to compiled object code, generated documentation,<br>
+                                             and conversions to other media types.<br>
+                                             <br>
+                                             "Work" shall mean the work of authorship, whether in Source or<br>
+                                             Object form, made available under the License, as indicated by a<br>
+                                             copyright notice that is included in or attached to the work<br>
+                                             (an example is provided in the Appendix below).<br>
+                                             <br>
+                                             "Derivative Works" shall mean any work, whether in Source or Object<br>
+                                             form, that is based on (or derived from) the Work and for which the<br>
+                                             editorial revisions, annotations, elaborations, or other modifications<br>
+                                             represent, as a whole, an original work of authorship. For the purposes<br>
+                                             of this License, Derivative Works shall not include works that remain<br>
+                                             separable from, or merely link (or bind by name) to the interfaces of,<br>
+                                             the Work and Derivative Works thereof.<br>
+                                             <br>
+                                             "Contribution" shall mean any work of authorship, including<br>
+                                             the original version of the Work and any modifications or additions<br>
+                                             to that Work or Derivative Works thereof, that is intentionally<br>
+                                             submitted to Licensor for inclusion in the Work by the copyright owner<br>
+                                             or by an individual or Legal Entity authorized to submit on behalf of<br>
+                                             the copyright owner. For the purposes of this definition, "submitted"<br>
+                                             means any form of electronic, verbal, or written communication sent<br>
+                                             to the Licensor or its representatives, including but not limited to<br>
+                                             communication on electronic mailing lists, source code control systems,<br>
+                                             and issue tracking systems that are managed by, or on behalf of, the<br>
+                                             Licensor for the purpose of discussing and improving the Work, but<br>
+                                             excluding communication that is conspicuously marked or otherwise<br>
+                                             designated in writing by the copyright owner as "Not a Contribution."<br>
+                                             <br>
+                                             "Contributor" shall mean Licensor and any individual or Legal Entity<br>
+                                             on behalf of whom a Contribution has been received by Licensor and<br>
+                                             subsequently incorporated within the Work.<br>
+                                             <br>
+                                             2. Grant of Copyright License. Subject to the terms and conditions of<br>
+                                             this License, each Contributor hereby grants to You a perpetual,<br>
+                                             worldwide, non-exclusive, no-charge, royalty-free, irrevocable<br>
+                                             copyright license to reproduce, prepare Derivative Works of,<br>
+                                             publicly display, publicly perform, sublicense, and distribute the<br>
+                                             Work and such Derivative Works in Source or Object form.<br>
+                                             <br>
+                                             3. Grant of Patent License. Subject to the terms and conditions of<br>
+                                             this License, each Contributor hereby grants to You a perpetual,<br>
+                                             worldwide, non-exclusive, no-charge, royalty-free, irrevocable<br>
+                                             (except as stated in this section) patent license to make, have made,<br>
+                                             use, offer to sell, sell, import, and otherwise transfer the Work,<br>
+                                             where such license applies only to those patent claims licensable<br>
+                                             by such Contributor that are necessarily infringed by their<br>
+                                             Contribution(s) alone or by combination of their Contribution(s)<br>
+                                             with the Work to which such Contribution(s) was submitted. If You<br>
+                                             institute patent litigation against any entity (including a<br>
+                                             cross-claim or counterclaim in a lawsuit) alleging that the Work<br>
+                                             or a Contribution incorporated within the Work constitutes direct<br>
+                                             or contributory patent infringement, then any patent licenses<br>
+                                             granted to You under this License for that Work shall terminate<br>
+                                             as of the date such litigation is filed.<br>
+                                             <br>
+                                             4. Redistribution. You may reproduce and distribute copies of the<br>
+                                             Work or Derivative Works thereof in any medium, with or without<br>
+                                             modifications, and in Source or Object form, provided that You<br>
+                                             meet the following conditions:<br>
+                                             <br>
+                                             (a) You must give any other recipients of the Work or<br>
+                                             Derivative Works a copy of this License; and<br>
+                                             <br>
+                                             (b) You must cause any modified files to carry prominent notices<br>
+                                             stating that You changed the files; and<br>
+                                             <br>
+                                             (c) You must retain, in the Source form of any Derivative Works<br>
+                                             that You distribute, all copyright, patent, trademark, and<br>
+                                             attribution notices from the Source form of the Work,<br>
+                                             excluding those notices that do not pertain to any part of<br>
+                                             the Derivative Works; and<br>
+                                             <br>
+                                             (d) If the Work includes a "NOTICE" text file as part of its<br>
+                                             distribution, then any Derivative Works that You distribute must<br>
+                                             include a readable copy of the attribution notices contained<br>
+                                             within such NOTICE file, excluding those notices that do not<br>
+                                             pertain to any part of the Derivative Works, in at least one<br>
+                                             of the following places: within a NOTICE text file distributed<br>
+                                             as part of the Derivative Works; within the Source form or<br>
+                                             documentation, if provided along with the Derivative Works; or,<br>
+                                             within a display generated by the Derivative Works, if and<br>
+                                             wherever such third-party notices normally appear. The contents<br>
+                                             of the NOTICE file are for informational purposes only and<br>
+                                             do not modify the License. You may add Your own attribution<br>
+                                             notices within Derivative Works that You distribute, alongside<br>
+                                             or as an addendum to the NOTICE text from the Work, provided<br>
+                                             that such additional attribution notices cannot be construed<br>
+                                             as modifying the License.<br>
+                                             <br>
+                                             You may add Your own copyright statement to Your modifications and<br>
+                                             may provide additional or different license terms and conditions<br>
+                                             for use, reproduction, or distribution of Your modifications, or<br>
+                                             for any such Derivative Works as a whole, provided Your use,<br>
+                                             reproduction, and distribution of the Work otherwise complies with<br>
+                                             the conditions stated in this License.<br>
+                                             <br>
+                                             5. Submission of Contributions. Unless You explicitly state otherwise,<br>
+                                             any Contribution intentionally submitted for inclusion in the Work<br>
+                                             by You to the Licensor shall be under the terms and conditions of<br>
+                                             this License, without any additional terms or conditions.<br>
+                                             Notwithstanding the above, nothing herein shall supersede or modify<br>
+                                             the terms of any separate license agreement you may have executed<br>
+                                             with Licensor regarding such Contributions.<br>
+                                             <br>
+                                             6. Trademarks. This License does not grant permission to use the trade<br>
+                                             names, trademarks, service marks, or product names of the Licensor,<br>
+                                             except as required for reasonable and customary use in describing the<br>
+                                             origin of the Work and reproducing the content of the NOTICE file.<br>
+                                             <br>
+                                             7. Disclaimer of Warranty. Unless required by applicable law or<br>
+                                             agreed to in writing, Licensor provides the Work (and each<br>
+                                             Contributor provides its Contributions) on an "AS IS" BASIS,<br>
+                                             WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or<br>
+                                             implied, including, without limitation, any warranties or conditions<br>
+                                             of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A<br>
+                                             PARTICULAR PURPOSE. You are solely responsible for determining the<br>
+                                             appropriateness of using or redistributing the Work and assume any<br>
+                                             risks associated with Your exercise of permissions under this License.<br>
+                                             <br>
+                                             8. Limitation of Liability. In no event and under no legal theory,<br>
+                                             whether in tort (including negligence), contract, or otherwise,<br>
+                                             unless required by applicable law (such as deliberate and grossly<br>
+                                             negligent acts) or agreed to in writing, shall any Contributor be<br>
+                                             liable to You for damages, including any direct, indirect, special,<br>
+                                             incidental, or consequential damages of any character arising as a<br>
+                                             result of this License or out of the use or inability to use the<br>
+                                             Work (including but not limited to damages for loss of goodwill,<br>
+                                             work stoppage, computer failure or malfunction, or any and all<br>
+                                             other commercial damages or losses), even if such Contributor<br>
+                                             has been advised of the possibility of such damages.<br>
+                                             <br>
+                                             9. Accepting Warranty or Additional Liability. While redistributing<br>
+                                             the Work or Derivative Works thereof, You may choose to offer,<br>
+                                             and charge a fee for, acceptance of support, warranty, indemnity,<br>
+                                             or other liability obligations and/or rights consistent with this<br>
+                                             License. However, in accepting such obligations, You may act only<br>
+                                             on Your own behalf and on Your sole responsibility, not on behalf<br>
+                                             of any other Contributor, and only if You agree to indemnify,<br>
+                                             defend, and hold each Contributor harmless for any liability<br>
+                                             incurred by, or claims asserted against, such Contributor by reason<br>
+                                             of your accepting any such warranty or additional liability.<br>
+                                             <br>
+                                             END OF TERMS AND CONDITIONS<br>
+                                             <br>
+                                             APPENDIX: How to apply the Apache License to your work.<br>
+                                             <br>
+                                             To apply the Apache License to your work, attach the following<br>
+                                             boilerplate notice, with the fields enclosed by brackets "{}"<br>
+                                             replaced with your own identifying information. (Don't include<br>
+                                             the brackets!) The text should be enclosed in the appropriate<br>
+                                             comment syntax for the file format. We also recommend that a<br>
+                                             file or class name and description of purpose be included on the<br>
+                                             same "printed page" as the copyright notice for easier<br>
+                                             identification within third-party archives.<br>
+                                             <br>
+                                             Copyright {yyyy} {name of copyright owner}<br>
+                                             <br>
+                                             Licensed under the Apache License, Version 2.0 (the "License");<br>
+                                             you may not use this file except in compliance with the License.<br>
+                                             You may obtain a copy of the License at<br>
+                                             <br>
+                                             http://www.apache.org/licenses/LICENSE-2.0<br>
+                                             <br>
+                                             Unless required by applicable law or agreed to in writing, software<br>
+                                             distributed under the License is distributed on an "AS IS" BASIS,<br>
+                                             WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+                                             implied.<br>
+                                             See the License for the specific language governing permissions and<br>
+                                             limitations under the License.<br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       SpringBoot
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/spring-projects/spring-boot<br>
+                                             <b>License:</b><br>
+                                             Apache License<br>
+                                             Version 2.0, January 2004<br>
+                                             http://www.apache.org/licenses/<br>
+                                             <br>
+                                             TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION<br>
+                                             <br>
+                                             1. Definitions.<br>
+                                             <br>
+                                             "License" shall mean the terms and conditions for use, reproduction,<br>
+                                             and distribution as defined by Sections 1 through 9 of this document.<br>
+                                             <br>
+                                             "Licensor" shall mean the copyright owner or entity authorized by<br>
+                                             the copyright owner that is granting the License.<br>
+                                             <br>
+                                             "Legal Entity" shall mean the union of the acting entity and all<br>
+                                             other entities that control, are controlled by, or are under common<br>
+                                             control with that entity. For the purposes of this definition,<br>
+                                             "control" means (i) the power, direct or indirect, to cause the<br>
+                                             direction or management of such entity, whether by contract or<br>
+                                             otherwise, or (ii) ownership of fifty percent (50%) or more of the<br>
+                                             outstanding shares, or (iii) beneficial ownership of such entity.<br>
+                                             <br>
+                                             "You" (or "Your") shall mean an individual or Legal Entity<br>
+                                             exercising permissions granted by this License.<br>
+                                             <br>
+                                             "Source" form shall mean the preferred form for making modifications,<br>
+                                             including but not limited to software source code, documentation<br>
+                                             source, and configuration files.<br>
+                                             <br>
+                                             "Object" form shall mean any form resulting from mechanical<br>
+                                             transformation or translation of a Source form, including but<br>
+                                             not limited to compiled object code, generated documentation,<br>
+                                             and conversions to other media types.<br>
+                                             <br>
+                                             "Work" shall mean the work of authorship, whether in Source or<br>
+                                             Object form, made available under the License, as indicated by a<br>
+                                             copyright notice that is included in or attached to the work<br>
+                                             (an example is provided in the Appendix below).<br>
+                                             <br>
+                                             "Derivative Works" shall mean any work, whether in Source or Object<br>
+                                             form, that is based on (or derived from) the Work and for which the<br>
+                                             editorial revisions, annotations, elaborations, or other modifications<br>
+                                             represent, as a whole, an original work of authorship. For the purposes<br>
+                                             of this License, Derivative Works shall not include works that remain<br>
+                                             separable from, or merely link (or bind by name) to the interfaces of,<br>
+                                             the Work and Derivative Works thereof.<br>
+                                             <br>
+                                             "Contribution" shall mean any work of authorship, including<br>
+                                             the original version of the Work and any modifications or additions<br>
+                                             to that Work or Derivative Works thereof, that is intentionally<br>
+                                             submitted to Licensor for inclusion in the Work by the copyright owner<br>
+                                             or by an individual or Legal Entity authorized to submit on behalf of<br>
+                                             the copyright owner. For the purposes of this definition, "submitted"<br>
+                                             means any form of electronic, verbal, or written communication sent<br>
+                                             to the Licensor or its representatives, including but not limited to<br>
+                                             communication on electronic mailing lists, source code control systems,<br>
+                                             and issue tracking systems that are managed by, or on behalf of, the<br>
+                                             Licensor for the purpose of discussing and improving the Work, but<br>
+                                             excluding communication that is conspicuously marked or otherwise<br>
+                                             designated in writing by the copyright owner as "Not a Contribution."<br>
+                                             <br>
+                                             "Contributor" shall mean Licensor and any individual or Legal Entity<br>
+                                             on behalf of whom a Contribution has been received by Licensor and<br>
+                                             subsequently incorporated within the Work.<br>
+                                             <br>
+                                             2. Grant of Copyright License. Subject to the terms and conditions of<br>
+                                             this License, each Contributor hereby grants to You a perpetual,<br>
+                                             worldwide, non-exclusive, no-charge, royalty-free, irrevocable<br>
+                                             copyright license to reproduce, prepare Derivative Works of,<br>
+                                             publicly display, publicly perform, sublicense, and distribute the<br>
+                                             Work and such Derivative Works in Source or Object form.<br>
+                                             <br>
+                                             3. Grant of Patent License. Subject to the terms and conditions of<br>
+                                             this License, each Contributor hereby grants to You a perpetual,<br>
+                                             worldwide, non-exclusive, no-charge, royalty-free, irrevocable<br>
+                                             (except as stated in this section) patent license to make, have made,<br>
+                                             use, offer to sell, sell, import, and otherwise transfer the Work,<br>
+                                             where such license applies only to those patent claims licensable<br>
+                                             by such Contributor that are necessarily infringed by their<br>
+                                             Contribution(s) alone or by combination of their Contribution(s)<br>
+                                             with the Work to which such Contribution(s) was submitted. If You<br>
+                                             institute patent litigation against any entity (including a<br>
+                                             cross-claim or counterclaim in a lawsuit) alleging that the Work<br>
+                                             or a Contribution incorporated within the Work constitutes direct<br>
+                                             or contributory patent infringement, then any patent licenses<br>
+                                             granted to You under this License for that Work shall terminate<br>
+                                             as of the date such litigation is filed.<br>
+                                             <br>
+                                             4. Redistribution. You may reproduce and distribute copies of the<br>
+                                             Work or Derivative Works thereof in any medium, with or without<br>
+                                             modifications, and in Source or Object form, provided that You<br>
+                                             meet the following conditions:<br>
+                                             <br>
+                                             (a) You must give any other recipients of the Work or<br>
+                                             Derivative Works a copy of this License; and<br>
+                                             <br>
+                                             (b) You must cause any modified files to carry prominent notices<br>
+                                             stating that You changed the files; and<br>
+                                             <br>
+                                             (c) You must retain, in the Source form of any Derivative Works<br>
+                                             that You distribute, all copyright, patent, trademark, and<br>
+                                             attribution notices from the Source form of the Work,<br>
+                                             excluding those notices that do not pertain to any part of<br>
+                                             the Derivative Works; and<br>
+                                             <br>
+                                             (d) If the Work includes a "NOTICE" text file as part of its<br>
+                                             distribution, then any Derivative Works that You distribute must<br>
+                                             include a readable copy of the attribution notices contained<br>
+                                             within such NOTICE file, excluding those notices that do not<br>
+                                             pertain to any part of the Derivative Works, in at least one<br>
+                                             of the following places: within a NOTICE text file distributed<br>
+                                             as part of the Derivative Works; within the Source form or<br>
+                                             documentation, if provided along with the Derivative Works; or,<br>
+                                             within a display generated by the Derivative Works, if and<br>
+                                             wherever such third-party notices normally appear. The contents<br>
+                                             of the NOTICE file are for informational purposes only and<br>
+                                             do not modify the License. You may add Your own attribution<br>
+                                             notices within Derivative Works that You distribute, alongside<br>
+                                             or as an addendum to the NOTICE text from the Work, provided<br>
+                                             that such additional attribution notices cannot be construed<br>
+                                             as modifying the License.<br>
+                                             <br>
+                                             You may add Your own copyright statement to Your modifications and<br>
+                                             may provide additional or different license terms and conditions<br>
+                                             for use, reproduction, or distribution of Your modifications, or<br>
+                                             for any such Derivative Works as a whole, provided Your use,<br>
+                                             reproduction, and distribution of the Work otherwise complies with<br>
+                                             the conditions stated in this License.<br>
+                                             <br>
+                                             5. Submission of Contributions. Unless You explicitly state otherwise,<br>
+                                             any Contribution intentionally submitted for inclusion in the Work<br>
+                                             by You to the Licensor shall be under the terms and conditions of<br>
+                                             this License, without any additional terms or conditions.<br>
+                                             Notwithstanding the above, nothing herein shall supersede or modify<br>
+                                             the terms of any separate license agreement you may have executed<br>
+                                             with Licensor regarding such Contributions.<br>
+                                             <br>
+                                             6. Trademarks. This License does not grant permission to use the trade<br>
+                                             names, trademarks, service marks, or product names of the Licensor,<br>
+                                             except as required for reasonable and customary use in describing the<br>
+                                             origin of the Work and reproducing the content of the NOTICE file.<br>
+                                             <br>
+                                             7. Disclaimer of Warranty. Unless required by applicable law or<br>
+                                             agreed to in writing, Licensor provides the Work (and each<br>
+                                             Contributor provides its Contributions) on an "AS IS" BASIS,<br>
+                                             WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or<br>
+                                             implied, including, without limitation, any warranties or conditions<br>
+                                             of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A<br>
+                                             PARTICULAR PURPOSE. You are solely responsible for determining the<br>
+                                             appropriateness of using or redistributing the Work and assume any<br>
+                                             risks associated with Your exercise of permissions under this License.<br>
+                                             <br>
+                                             8. Limitation of Liability. In no event and under no legal theory,<br>
+                                             whether in tort (including negligence), contract, or otherwise,<br>
+                                             unless required by applicable law (such as deliberate and grossly<br>
+                                             negligent acts) or agreed to in writing, shall any Contributor be<br>
+                                             liable to You for damages, including any direct, indirect, special,<br>
+                                             incidental, or consequential damages of any character arising as a<br>
+                                             result of this License or out of the use or inability to use the<br>
+                                             Work (including but not limited to damages for loss of goodwill,<br>
+                                             work stoppage, computer failure or malfunction, or any and all<br>
+                                             other commercial damages or losses), even if such Contributor<br>
+                                             has been advised of the possibility of such damages.<br>
+                                             <br>
+                                             9. Accepting Warranty or Additional Liability. While redistributing<br>
+                                             the Work or Derivative Works thereof, You may choose to offer,<br>
+                                             and charge a fee for, acceptance of support, warranty, indemnity,<br>
+                                             or other liability obligations and/or rights consistent with this<br>
+                                             License. However, in accepting such obligations, You may act only<br>
+                                             on Your own behalf and on Your sole responsibility, not on behalf<br>
+                                             of any other Contributor, and only if You agree to indemnify,<br>
+                                             defend, and hold each Contributor harmless for any liability<br>
+                                             incurred by, or claims asserted against, such Contributor by reason<br>
+                                             of your accepting any such warranty or additional liability.<br>
+                                             <br>
+                                             END OF TERMS AND CONDITIONS<br>
+                                             <br>
+                                             APPENDIX: How to apply the Apache License to your work.<br>
+                                             <br>
+                                             To apply the Apache License to your work, attach the following<br>
+                                             boilerplate notice, with the fields enclosed by brackets "{}"<br>
+                                             replaced with your own identifying information. (Don't include<br>
+                                             the brackets!) The text should be enclosed in the appropriate<br>
+                                             comment syntax for the file format. We also recommend that a<br>
+                                             file or class name and description of purpose be included on the<br>
+                                             same "printed page" as the copyright notice for easier<br>
+                                             identification within third-party archives.<br>
+                                             <br>
+                                             Copyright {yyyy} {name of copyright owner}<br>
+                                             <br>
+                                             Licensed under the Apache License, Version 2.0 (the "License");<br>
+                                             you may not use this file except in compliance with the License.<br>
+                                             You may obtain a copy of the License at<br>
+                                             <br>
+                                             http://www.apache.org/licenses/LICENSE-2.0<br>
+                                             <br>
+                                             Unless required by applicable law or agreed to in writing, software<br>
+                                             distributed under the License is distributed on an "AS IS" BASIS,<br>
+                                             WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+                                             implied.<br>
+                                             See the License for the specific language governing permissions and<br>
+                                             limitations under the License.<br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       Vue.JS
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/vuejs<br>
+                                             <b>License:</b><br>
+                                             MIT License<br>
+                                             <br>
+                                             Copyright (c) 2018-PRESENT Yuxi (Evan) You<br>
+                                             <br>
+                                             Permission is hereby granted, free of charge, to any person obtaining a
+                                             copy<br>
+                                             of this software and associated documentation files (the "Software"), to
+                                             deal<br>
+                                             in the Software without restriction, including without limitation the
+                                             rights<br>
+                                             to use, copy, modify, merge, publish, distribute, sublicense, and/or
+                                             sell<br>
+                                             copies of the Software, and to permit persons to whom the Software is<br>
+                                             furnished to do so, subject to the following conditions:<br>
+                                             <br>
+                                             The above copyright notice and this permission notice shall be included in
+                                             all<br>
+                                             copies or substantial portions of the Software.<br>
+                                             <br>
+                                             THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+                                             OR<br>
+                                             IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+                                             MERCHANTABILITY,<br>
+                                             FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+                                             THE<br>
+                                             AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>
+                                             LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+                                             FROM,<br>
+                                             OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+                                             THE<br>
+                                             SOFTWARE.<br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       Element Plus
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/element-plus/element-plus<br>
+                                             <b>License:</b><br>
+                                             MIT License<br>
+                                             <br>
+                                             Copyright (c) 2020-PRESENT Element Plus<br>
+                                             <br>
+                                             Permission is hereby granted, free of charge, to any person obtaining a
+                                             copy<br>
+                                             of this software and associated documentation files (the "Software"), to
+                                             deal<br>
+                                             in the Software without restriction, including without limitation the
+                                             rights<br>
+                                             to use, copy, modify, merge, publish, distribute, sublicense, and/or
+                                             sell<br>
+                                             copies of the Software, and to permit persons to whom the Software is<br>
+                                             furnished to do so, subject to the following conditions:<br>
+                                             <br>
+                                             The above copyright notice and this permission notice shall be included in
+                                             all<br>
+                                             copies or substantial portions of the Software.<br>
+                                             <br>
+                                             THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+                                             OR<br>
+                                             IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+                                             MERCHANTABILITY,<br>
+                                             FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+                                             THE<br>
+                                             AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>
+                                             LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+                                             FROM,<br>
+                                             OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+                                             THE<br>
+                                             SOFTWARE.<br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       Naive UI
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/tusen-ai/naive-ui<br>
+                                             <b>License:</b><br>
+                                             MIT License<br>
+                                             <br>
+                                             Copyright (c) 2021 TuSimple<br>
+                                             <br>
+                                             Permission is hereby granted, free of charge, to any person obtaining a
+                                             copy<br>
+                                             of this software and associated documentation files (the "Software"), to
+                                             deal<br>
+                                             in the Software without restriction, including without limitation the
+                                             rights<br>
+                                             to use, copy, modify, merge, publish, distribute, sublicense, and/or
+                                             sell<br>
+                                             copies of the Software, and to permit persons to whom the Software is<br>
+                                             furnished to do so, subject to the following conditions:<br>
+                                             <br>
+                                             The above copyright notice and this permission notice shall be included in
+                                             all<br>
+                                             copies or substantial portions of the Software.<br>
+                                             <br>
+                                             THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+                                             OR<br>
+                                             IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+                                             MERCHANTABILITY,<br>
+                                             FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+                                             THE<br>
+                                             AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>
+                                             LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+                                             FROM,<br>
+                                             OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+                                             THE<br>
+                                             SOFTWARE.<br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       Uptime Kuma
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/louislam/uptime-kuma<br>
+                                             <b>License:</b><br>
+                                             MIT License<br>
+                                             <br>
+                                             Copyright (c) 2021 Louis Lam<br>
+                                             <br>
+                                             Permission is hereby granted, free of charge, to any person obtaining a
+                                             copy<br>
+                                             of this software and associated documentation files (the "Software"), to
+                                             deal<br>
+                                             in the Software without restriction, including without limitation the
+                                             rights<br>
+                                             to use, copy, modify, merge, publish, distribute, sublicense, and/or
+                                             sell<br>
+                                             copies of the Software, and to permit persons to whom the Software is<br>
+                                             furnished to do so, subject to the following conditions:<br>
+                                             <br>
+                                             The above copyright notice and this permission notice shall be included in
+                                             all<br>
+                                             copies or substantial portions of the Software.<br>
+                                             <br>
+                                             THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+                                             OR<br>
+                                             IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+                                             MERCHANTABILITY,<br>
+                                             FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+                                             THE<br>
+                                             AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>
+                                             LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+                                             FROM,<br>
+                                             OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+                                             THE<br>
+                                             SOFTWARE.<br>
+                                        </div>
+                                   </div>
+
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       OpenByte.Launcher.WinUI<small>
+                                                            (主要由项目组成员 越越 开发，特此鸣谢)</small>
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/ZGIT-Network/OpenByte.Launcher.WinUI<br>
+                                             <b>License:</b><br>
+                                             GNU GENERAL PUBLIC LICENSE<br>
+                                             Version 3, 29 June 2007<br>
+                                             <br>
+                                             Copyright (C) 2007 Free Software Foundation, Inc.
+                                             https: //fsf.org <br>
+                                             Everyone is permitted to copy and distribute verbatim copies<br>
+                                             of this license document, but changing it is not allowed.<br>
+                                             <br>
+                                             Preamble<br>
+                                             <br>
+                                             The GNU General Public License is a free, copyleft license for<br>
+                                             software and other kinds of works.<br>
+                                             <br>
+                                             The licenses for most software and other practical works are designed<br>
+                                             to take away your freedom to share and change the works. By contrast,<br>
+                                             the GNU General Public License is intended to guarantee your freedom to<br>
+                                             share and change all versions of a program--to make sure it remains
+                                             free<br>
+                                             software for all its users. We, the Free Software Foundation, use the<br>
+                                             GNU General Public License for most of our software; it applies also to<br>
+                                             any other work released this way by its authors. You can apply it to<br>
+                                             your programs, too.<br>
+                                             <br>
+                                             When we speak of free software, we are referring to freedom, not<br>
+                                             price. Our General Public Licenses are designed to make sure that you<br>
+                                             have the freedom to distribute copies of free software (and charge for<br>
+                                             them if you wish), that you receive source code or can get it if you<br>
+                                             want it, that you can change the software or use pieces of it in new<br>
+                                             free programs, and that you know you can do these things.<br><br>
+                                             >>> <a
+                                                  href="//github.com/ZGIT-Network/OpenByte.Launcher.WinUI/blame/main/LICENSE"
+                                                  target="_blank">Looking For Full LICENSE</a>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       FullPage.js
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/alvarotrigo/fullPage.js<br>
+                                             <b>License:</b><br>
+                                             GNU GENERAL PUBLIC LICENSE<br>
+                                             Version 3, 29 June 2007<br>
+                                             <br>
+                                             Copyright (C) 2007 Free Software Foundation, Inc.
+                                             https: //fsf.org <br>
+                                             Everyone is permitted to copy and distribute verbatim copies<br>
+                                             of this license document, but changing it is not allowed.<br>
+                                             <br>
+                                             Preamble<br>
+                                             <br>
+                                             The GNU General Public License is a free, copyleft license for<br>
+                                             software and other kinds of works.<br>
+                                             <br>
+                                             The licenses for most software and other practical works are designed<br>
+                                             to take away your freedom to share and change the works. By contrast,<br>
+                                             the GNU General Public License is intended to guarantee your freedom to<br>
+                                             share and change all versions of a program--to make sure it remains
+                                             free<br>
+                                             software for all its users. We, the Free Software Foundation, use the<br>
+                                             GNU General Public License for most of our software; it applies also to<br>
+                                             any other work released this way by its authors. You can apply it to<br>
+                                             your programs, too.<br>
+                                             <br>
+                                             When we speak of free software, we are referring to freedom, not<br>
+                                             price. Our General Public Licenses are designed to make sure that you<br>
+                                             have the freedom to distribute copies of free software (and charge for<br>
+                                             them if you wish), that you receive source code or can get it if you<br>
+                                             want it, that you can change the software or use pieces of it in new<br>
+                                             free programs, and that you know you can do these things.<br><br>
+                                             >>> <a href="//github.com/alvarotrigo/fullPage.js/blob/master/LICENSE"
+                                                  target="_blank">Looking For Full LICENSE</a>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       jquery
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/jquery/jquery<br>
+                                             <b>License:</b><br>
+                                             Copyright OpenJS Foundation and other contributors,
+                                             https://openjsf.org/<br>
+                                             <br>
+                                             Permission is hereby granted, free of charge, to any person obtaining<br>
+                                             a copy of this software and associated documentation files (the<br>
+                                             "Software"), to deal in the Software without restriction, including<br>
+                                             without limitation the rights to use, copy, modify, merge, publish,<br>
+                                             distribute, sublicense, and/or sell copies of the Software, and to<br>
+                                             permit persons to whom the Software is furnished to do so, subject to<br>
+                                             the following conditions:<br>
+                                             <br>
+                                             The above copyright notice and this permission notice shall be<br>
+                                             included in all copies or substantial portions of the Software.<br>
+                                             <br>
+                                             THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,<br>
+                                             EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF<br>
+                                             MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND<br>
+                                             NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE<br>
+                                             LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION<br>
+                                             OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION<br>
+                                             WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.<br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       Adminlte
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/ColorlibHQ/AdminLTE<br>
+                                             <b>License:</b><br>
+                                             MIT License<br>
+                                             <br>
+                                             Copyright (c) 2014-2021 ColorlibHQ<br>
+                                             <br>
+                                             Permission is hereby granted, free of charge, to any person obtaining a
+                                             copy<br>
+                                             of this software and associated documentation files (the "Software"), to
+                                             deal<br>
+                                             in the Software without restriction, including without limitation the
+                                             rights<br>
+                                             to use, copy, modify, merge, publish, distribute, sublicense, and/or
+                                             sell<br>
+                                             copies of the Software, and to permit persons to whom the Software is<br>
+                                             furnished to do so, subject to the following conditions:<br>
+                                             <br>
+                                             The above copyright notice and this permission notice shall be included in
+                                             all<br>
+                                             copies or substantial portions of the Software.<br>
+                                             <br>
+                                             THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+                                             OR<br>
+                                             IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+                                             MERCHANTABILITY,<br>
+                                             FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+                                             THE<br>
+                                             AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>
+                                             LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+                                             FROM,<br>
+                                             OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+                                             THE<br>
+                                             SOFTWARE.<br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       animate.css
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/animate-css/animate.css<br>
+                                             <b>License:</b><br>
+                                             Animate.css Copyright 2021 Daniel Eden (“Licensor”)<br>
+                                             <br>
+                                             Hippocratic License Version Number: 2.1.<br>
+                                             <br>
+                                             Purpose. The purpose of this License is for the Licensor named above to
+                                             permit the Licensee (as defined below) broad permission, if consistent with
+                                             Human Rights Laws and Human Rights Principles (as each is defined below),
+                                             to use and work with the Software (as defined below) within the full scope
+                                             of Licensor’s copyright and patent rights, if any, in the Software, while
+                                             ensuring attribution and protecting the Licensor from liability.<br>
+                                             <br>
+                                             Permission and Conditions. The Licensor grants permission by this license
+                                             (“License”), free of charge, to the extent of Licensor’s rights under
+                                             applicable copyright and patent law, to any person or entity (the
+                                             “Licensee”) obtaining a copy of this software and associated documentation
+                                             files (the “Software”), to do everything with the Software that would
+                                             otherwise infringe (i) the Licensor’s copyright in the Software or (ii) any
+                                             patent claims to the Software that the Licensor can license or becomes able
+                                             to license, subject to all of the following terms and conditions:<br>
+                                             <br>
+                                             * Acceptance. This License is automatically offered to every person and
+                                             entity subject to its terms and conditions. Licensee accepts this License
+                                             and agrees to its terms and conditions by taking any action with the
+                                             Software that, absent this License, would infringe any intellectual
+                                             property right held by Licensor.<br>
+                                             <br>
+                                             * Notice. Licensee must ensure that everyone who gets a copy of any part of
+                                             this Software from Licensee, with or without changes, also receives the
+                                             License and the above copyright notice (and if included by the Licensor,
+                                             patent, trademark and attribution notice). Licensee must cause any modified
+                                             versions of the Software to carry prominent notices stating that Licensee
+                                             changed the Software. For clarity, although Licensee is free to create
+                                             modifications of the Software and distribute only the modified portion
+                                             created by Licensee with additional or different terms, the portion of the
+                                             Software not modified must be distributed pursuant to this License. If
+                                             anyone notifies Licensee in writing that Licensee has not complied with
+                                             this Notice section, Licensee can keep this License by taking all practical
+                                             steps to comply within 30 days after the notice. If Licensee does not do
+                                             so, Licensee’s License (and all rights licensed hereunder) shall end
+                                             immediately.<br>
+                                             <br>
+                                             * Compliance with Human Rights Principles and Human Rights Laws.<br>
+                                             <br>
+                                             1. Human Rights Principles.<br>
+                                             <br>
+                                             (a) Licensee is advised to consult the articles of the United Nations
+                                             Universal Declaration of Human Rights and the United Nations Global Compact
+                                             that define recognized principles of international human rights (the “Human
+                                             Rights Principles”). Licensee shall use the Software in a manner consistent
+                                             with Human Rights Principles.<br>
+                                             <br>
+                                             (b) Unless the Licensor and Licensee agree otherwise, any dispute,
+                                             controversy, or claim arising out of or relating to (i) Section 1(a)
+                                             regarding Human Rights Principles, including the breach of Section 1(a),
+                                             termination of this License for breach of the Human Rights Principles, or
+                                             invalidity of Section 1(a) or (ii) a determination of whether any Law is
+                                             consistent or in conflict with Human Rights Principles pursuant to Section
+                                             2, below, shall be settled by arbitration in accordance with the Hague
+                                             Rules on Business and Human Rights Arbitration (the “Rules”); provided,
+                                             however, that Licensee may elect not to participate in such arbitration, in
+                                             which event this License (and all rights licensed hereunder) shall end
+                                             immediately. The number of arbitrators shall be one unless the Rules
+                                             require otherwise.<br>
+                                             <br>
+                                             Unless both the Licensor and Licensee agree to the contrary: (1) All
+                                             documents and information concerning the arbitration shall be public and
+                                             may be disclosed by any party; (2) The repository referred to under Article
+                                             43 of the Rules shall make available to the public in a timely manner all
+                                             documents concerning the arbitration which are communicated to it,
+                                             including all submissions of the parties, all evidence admitted into the
+                                             record of the proceedings, all transcripts or other recordings of hearings
+                                             and all orders, decisions and awards of the arbitral tribunal, subject only
+                                             to the arbitral tribunal's powers to take such measures as may be necessary
+                                             to safeguard the integrity of the arbitral process pursuant to Articles 18,
+                                             33, 41 and 42 of the Rules; and (3) Article 26(6) of the Rules shall not
+                                             apply.<br>
+                                             <br>
+                                             2. Human Rights Laws. The Software shall not be used by any person or
+                                             entity for any systems, activities, or other uses that violate any Human
+                                             Rights Laws. “Human Rights Laws” means any applicable laws, regulations, or
+                                             rules (collectively, “Laws”) that protect human, civil, labor, privacy,
+                                             political, environmental, security, economic, due process, or similar
+                                             rights; provided, however, that such Laws are consistent and not in
+                                             conflict with Human Rights Principles (a dispute over the consistency or a
+                                             conflict between Laws and Human Rights Principles shall be determined by
+                                             arbitration as stated above). Where the Human Rights Laws of more than one
+                                             jurisdiction are applicable or in conflict with respect to the use of the
+                                             Software, the Human Rights Laws that are most protective of the individuals
+                                             or groups harmed shall apply.<br>
+                                             <br>
+                                             3. Indemnity. Licensee shall hold harmless and indemnify Licensor (and any
+                                             other contributor) against all losses, damages, liabilities, deficiencies,
+                                             claims, actions, judgments, settlements, interest, awards, penalties,
+                                             fines, costs, or expenses of whatever kind, including Licensor’s reasonable
+                                             attorneys’ fees, arising out of or relating to Licensee’s use of the
+                                             Software in violation of Human Rights Laws or Human Rights Principles.<br>
+                                             <br>
+                                             * Failure to Comply. Any failure of Licensee to act according to the terms
+                                             and conditions of this License is both a breach of the License and an
+                                             infringement of the intellectual property rights of the Licensor (subject
+                                             to exceptions under Laws, e.g., fair use). In the event of a breach or
+                                             infringement, the terms and conditions of this License may be enforced by
+                                             Licensor under the Laws of any jurisdiction to which Licensee is subject.
+                                             Licensee also agrees that the Licensor may enforce the terms and conditions
+                                             of this License against Licensee through specific performance (or similar
+                                             remedy under Laws) to the extent permitted by Laws. For clarity, except in
+                                             the event of a breach of this License, infringement, or as otherwise stated
+                                             in this License, Licensor may not terminate this License with Licensee.<br>
+                                             <br>
+                                             * Enforceability and Interpretation. If any term or provision of this
+                                             License is determined to be invalid, illegal, or unenforceable by a court
+                                             of competent jurisdiction, then such invalidity, illegality, or
+                                             unenforceability shall not affect any other term or provision of this
+                                             License or invalidate or render unenforceable such term or provision in any
+                                             other jurisdiction; provided, however, subject to a court modification
+                                             pursuant to the immediately following sentence, if any term or provision of
+                                             this License pertaining to Human Rights Laws or Human Rights Principles is
+                                             deemed invalid, illegal, or unenforceable against Licensee by a court of
+                                             competent jurisdiction, all rights in the Software granted to Licensee
+                                             shall be deemed null and void as between Licensor and Licensee. Upon a
+                                             determination that any term or provision is invalid, illegal, or
+                                             unenforceable, to the extent permitted by Laws, the court may modify this
+                                             License to affect the original purpose that the Software be used in
+                                             compliance with Human Rights Principles and Human Rights Laws as closely as
+                                             possible. The language in this License shall be interpreted as to its fair
+                                             meaning and not strictly for or against any party.<br>
+                                             <br>
+                                             * Disclaimer. TO THE FULL EXTENT ALLOWED BY LAW, THIS SOFTWARE COMES “AS
+                                             IS,” WITHOUT ANY WARRANTY, EXPRESS OR IMPLIED, AND LICENSOR AND ANY OTHER
+                                             CONTRIBUTOR SHALL NOT BE LIABLE TO ANYONE FOR ANY DAMAGES OR OTHER
+                                             LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THIS
+                                             LICENSE, UNDER ANY KIND OF LEGAL CLAIM.<br>
+                                             <br>
+                                             This Hippocratic License is an Ethical Source license
+                                             (https://ethicalsource.dev) and is offered for use by licensors and
+                                             licensees at their own risk, on an “AS IS” basis, and with no warranties
+                                             express or implied, to the maximum extent permitted by Laws.<br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       VuePress
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/vuejs/vuepress<br>
+                                             <b>License:</b><br>
+                                             MIT License<br>
+                                             <br>
+                                             Copyright (c) 2014-2021 Yuxi (Evan) You<br>
+                                             <br>
+                                             Permission is hereby granted, free of charge, to any person obtaining a
+                                             copy<br>
+                                             of this software and associated documentation files (the "Software"), to
+                                             deal<br>
+                                             in the Software without restriction, including without limitation the
+                                             rights<br>
+                                             to use, copy, modify, merge, publish, distribute, sublicense, and/or
+                                             sell<br>
+                                             copies of the Software, and to permit persons to whom the Software is<br>
+                                             furnished to do so, subject to the following conditions:<br>
+                                             <br>
+                                             The above copyright notice and this permission notice shall be included in
+                                             all<br>
+                                             copies or substantial portions of the Software.<br>
+                                             <br>
+                                             THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+                                             OR<br>
+                                             IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+                                             MERCHANTABILITY,<br>
+                                             FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+                                             THE<br>
+                                             AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>
+                                             LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+                                             FROM,<br>
+                                             OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+                                             THE<br>
+                                             SOFTWARE.<br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       ModernWpf
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/Kinnara/ModernWpf<br>
+                                             <b>License:</b><br>
+                                             MIT License<br>
+                                             <br>
+                                             Copyright (c) 2019 Yimeng Wu<br>
+                                             <br>
+                                             Permission is hereby granted, free of charge, to any person obtaining a
+                                             copy<br>
+                                             of this software and associated documentation files (the "Software"), to
+                                             deal<br>
+                                             in the Software without restriction, including without limitation the
+                                             rights<br>
+                                             to use, copy, modify, merge, publish, distribute, sublicense, and/or
+                                             sell<br>
+                                             copies of the Software, and to permit persons to whom the Software is<br>
+                                             furnished to do so, subject to the following conditions:<br>
+                                             <br>
+                                             The above copyright notice and this permission notice shall be included in
+                                             all<br>
+                                             copies or substantial portions of the Software.<br>
+                                             <br>
+                                             THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+                                             OR<br>
+                                             IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+                                             MERCHANTABILITY,<br>
+                                             FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+                                             THE<br>
+                                             AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>
+                                             LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+                                             FROM,<br>
+                                             OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+                                             THE<br>
+                                             SOFTWARE.<br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       CommunityToolkit.Mvvm
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/CommunityToolkit/MVVM-Samples<br>
+                                             <b>License:</b><br>
+                                             MIT License<br>
+                                             <br>
+                                             Copyright (c) .NET Foundation and Contributors<br>
+                                             <br>
+                                             Permission is hereby granted, free of charge, to any person obtaining a
+                                             copy<br>
+                                             of this software and associated documentation files (the "Software"), to
+                                             deal<br>
+                                             in the Software without restriction, including without limitation the
+                                             rights<br>
+                                             to use, copy, modify, merge, publish, distribute, sublicense, and/or
+                                             sell<br>
+                                             copies of the Software, and to permit persons to whom the Software is<br>
+                                             furnished to do so, subject to the following conditions:<br>
+                                             <br>
+                                             The above copyright notice and this permission notice shall be included in
+                                             all<br>
+                                             copies or substantial portions of the Software.<br>
+                                             <br>
+                                             THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+                                             OR<br>
+                                             IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+                                             MERCHANTABILITY,<br>
+                                             FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+                                             THE<br>
+                                             AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>
+                                             LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+                                             FROM,<br>
+                                             OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+                                             THE<br>
+                                             SOFTWARE.<br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       WindowsCommunityToolkit
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b>
+                                             https://github.com/CommunityToolkit/WindowsCommunityToolkit<br>
+                                             <b>License:</b><br>
+                                             MIT License<br>
+                                             <br>
+                                             Copyright (c) .NET Foundation and Contributors<br>
+                                             <br>
+                                             Permission is hereby granted, free of charge, to any person obtaining a
+                                             copy<br>
+                                             of this software and associated documentation files (the "Software"), to
+                                             deal<br>
+                                             in the Software without restriction, including without limitation the
+                                             rights<br>
+                                             to use, copy, modify, merge, publish, distribute, sublicense, and/or
+                                             sell<br>
+                                             copies of the Software, and to permit persons to whom the Software is<br>
+                                             furnished to do so, subject to the following conditions:<br>
+                                             <br>
+                                             The above copyright notice and this permission notice shall be included in
+                                             all<br>
+                                             copies or substantial portions of the Software.<br>
+                                             <br>
+                                             THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+                                             OR<br>
+                                             IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+                                             MERCHANTABILITY,<br>
+                                             FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+                                             THE<br>
+                                             AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>
+                                             LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+                                             FROM,<br>
+                                             OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+                                             THE<br>
+                                             SOFTWARE.<br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       protobuf
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/protocolbuffers/protobuf<br>
+                                             <b>License:</b><br>
+                                             Copyright 2008 Google Inc. All rights reserved.<br>
+                                             <br>
+                                             Redistribution and use in source and binary forms, with or without<br>
+                                             modification, are permitted provided that the following conditions are<br>
+                                             met:<br>
+                                             <br>
+                                             * Redistributions of source code must retain the above copyright<br>
+                                             notice, this list of conditions and the following disclaimer.<br>
+                                             * Redistributions in binary form must reproduce the above<br>
+                                             copyright notice, this list of conditions and the following disclaimer<br>
+                                             in the documentation and/or other materials provided with the<br>
+                                             distribution.<br>
+                                             * Neither the name of Google Inc. nor the names of its<br>
+                                             contributors may be used to endorse or promote products derived from<br>
+                                             this software without specific prior written permission.<br>
+                                             <br>
+                                             THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS<br>
+                                             "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT<br>
+                                             LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR<br>
+                                             A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT<br>
+                                             OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,<br>
+                                             SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT<br>
+                                             LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,<br>
+                                             DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY<br>
+                                             THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT<br>
+                                             (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE<br>
+                                             OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.<br>
+                                             <br>
+                                             Code generated by the Protocol Buffer compiler is owned by the owner<br>
+                                             of the input file used when generating it. This code is not<br>
+                                             standalone and requires a support library to be linked with it. This<br>
+                                             support library is itself covered by the above license.<br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       Newtonsoft.Json
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/JamesNK/Newtonsoft.Json<br>
+                                             <b>License:</b><br>
+                                             MIT License<br>
+                                             <br>
+                                             Copyright (c) 2007 James Newton-King<br>
+                                             <br>
+                                             Permission is hereby granted, free of charge, to any person obtaining a
+                                             copy<br>
+                                             of this software and associated documentation files (the "Software"), to
+                                             deal<br>
+                                             in the Software without restriction, including without limitation the
+                                             rights<br>
+                                             to use, copy, modify, merge, publish, distribute, sublicense, and/or
+                                             sell<br>
+                                             copies of the Software, and to permit persons to whom the Software is<br>
+                                             furnished to do so, subject to the following conditions:<br>
+                                             <br>
+                                             The above copyright notice and this permission notice shall be included in
+                                             all<br>
+                                             copies or substantial portions of the Software.<br>
+                                             <br>
+                                             THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+                                             OR<br>
+                                             IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+                                             MERCHANTABILITY,<br>
+                                             FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+                                             THE<br>
+                                             AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>
+                                             LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+                                             FROM,<br>
+                                             OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+                                             THE<br>
+                                             SOFTWARE.<br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       wpf-notifyicon
+                                                  </h3>
+                                             </div>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <b>Link:</b> https://github.com/hardcodet/wpf-notifyicon<br>
+                                             <b>License:</b><br>
+                                             The Code Project Open License (CPOL) 1.02<br>
+                                             <br>
+                                             Preamble<br>
+                                             <br>
+                                             This License governs Your use of the Work. This License is intended to
+                                             allow developers to use the Source Code and Executable Files provided as
+                                             part of the Work in any application in any form. <br>
+                                             <br>
+                                             The main points subject to the terms of the License are:<br>
+                                             * Source Code and Executable Files can be used in commercial applications;
+                                             <br>
+                                             * Source Code and Executable Files can be redistributed; and <br>
+                                             * Source Code can be modified to create derivative works. <br>
+                                             * No claim of suitability, guarantee, or any warranty whatsoever is
+                                             provided. The software is provided "as-is". <br>
+                                             * The Article accompanying the Work may not be distributed or republished
+                                             without the Author's consent <br>
+                                             This License is entered between You, the individual or other entity reading
+                                             or otherwise making use of the Work licensed pursuant to this License and
+                                             the individual or other entity which offers the Work under the terms of
+                                             this License ("Author").<br>
+                                             <br>
+                                             License<br>
+                                             <br>
+                                             THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CODE
+                                             PROJECT OPEN LICENSE ("LICENSE"). THE WORK IS PROTECTED BY COPYRIGHT AND/OR
+                                             OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS AUTHORIZED UNDER
+                                             THIS LICENSE OR COPYRIGHT LAW IS PROHIBITED.<br>
+                                             <br>
+                                             BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HEREIN, YOU ACCEPT AND AGREE
+                                             TO BE BOUND BY THE TERMS OF THIS LICENSE. THE AUTHOR GRANTS YOU THE RIGHTS
+                                             CONTAINED HEREIN IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND
+                                             CONDITIONS. IF YOU DO NOT AGREE TO ACCEPT AND BE BOUND BY THE TERMS OF THIS
+                                             LICENSE, YOU CANNOT MAKE ANY USE OF THE WORK.<br>
+                                             1. Definitions. <br>
+                                             1. "Articles" means, collectively, all articles written by Author which
+                                             describes how the Source Code and Executable Files for the Work may be used
+                                             by a user. <br>
+                                             2. "Author" means the individual or entity that offers the Work under the
+                                             terms of this License. <br>
+                                             3. "Derivative Work" means a work based upon the Work or upon the Work and
+                                             other pre-existing works. <br>
+                                             4. "Executable Files" refer to the executables, binary files, configuration
+                                             and any required data files included in the Work. <br>
+                                             5. "Publisher" means the provider of the website, magazine, CD-ROM, DVD or
+                                             other medium from or by which the Work is obtained by You. <br>
+                                             6. "Source Code" refers to the collection of source code and configuration
+                                             files used to create the Executable Files. <br>
+                                             7. "Standard Version" refers to such a Work if it has not been modified, or
+                                             has been modified in accordance with the consent of the Author, such
+                                             consent being in the full discretion of the Author. <br>
+                                             8. "Work" refers to the collection of files distributed by the Publisher,
+                                             including the Source Code, Executable Files, binaries, data files,
+                                             documentation, whitepapers and the Articles. <br>
+                                             9. "You" is you, an individual or entity wishing to use the Work and
+                                             exercise your rights under this License. <br>
+                                             2. Fair Use/Fair Use Rights. Nothing in this License is intended to reduce,
+                                             limit, or restrict any rights arising from fair use, fair dealing, first
+                                             sale or other limitations on the exclusive rights of the copyright owner
+                                             under copyright law or other applicable laws. <br>
+                                             3. License Grant. Subject to the terms and conditions of this License, the
+                                             Author hereby grants You a worldwide, royalty-free, non-exclusive,
+                                             perpetual (for the duration of the applicable copyright) license to
+                                             exercise the rights in the Work as stated below: <br>
+                                             1. You may use the standard version of the Source Code or Executable Files
+                                             in Your own applications. <br>
+                                             2. You may apply bug fixes, portability fixes and other modifications
+                                             obtained from the Public Domain or from the Author. A Work modified in such
+                                             a way shall still be considered the standard version and will be subject to
+                                             this License. <br>
+                                             3. You may otherwise modify Your copy of this Work (excluding the Articles)
+                                             in any way to create a Derivative Work, provided that You insert a
+                                             prominent notice in each changed file stating how, when and where You
+                                             changed that file. <br>
+                                             4. You may distribute the standard version of the Executable Files and
+                                             Source Code or Derivative Work in aggregate with other (possibly
+                                             commercial) programs as part of a larger (possibly commercial) software
+                                             distribution. <br>
+                                             5. The Articles discussing the Work published in any form by the author may
+                                             not be distributed or republished without the Author's consent. The author
+                                             retains copyright to any such Articles. You may use the Executable Files
+                                             and Source Code pursuant to this License but you may not repost or
+                                             republish or otherwise distribute or make available the Articles, without
+                                             the prior written consent of the Author. Any subroutines or modules
+                                             supplied by You and linked into the Source Code or Executable Files of this
+                                             Work shall not be considered part of this Work and will not be subject to
+                                             the terms of this License. <br>
+                                             4. Patent License. Subject to the terms and conditions of this License,
+                                             each Author hereby grants to You a perpetual, worldwide, non-exclusive,
+                                             no-charge, royalty-free, irrevocable (except as stated in this section)
+                                             patent license to make, have made, use, import, and otherwise transfer the
+                                             Work. <br>
+                                             5. Restrictions. The license granted in Section 3 above is expressly made
+                                             subject to and limited by the following restrictions: <br>
+                                             1. You agree not to remove any of the original copyright, patent,
+                                             trademark, and attribution notices and associated disclaimers that may
+                                             appear in the Source Code or Executable Files. <br>
+                                             2. You agree not to advertise or in any way imply that this Work is a
+                                             product of Your own. <br>
+                                             3. The name of the Author may not be used to endorse or promote products
+                                             derived from the Work without the prior written consent of the Author. <br>
+                                             4. You agree not to sell, lease, or rent any part of the Work. This does
+                                             not restrict you from including the Work or any part of the Work inside a
+                                             larger software distribution that itself is being sold. The Work by itself,
+                                             though, cannot be sold, leased or rented. <br>
+                                             5. You may distribute the Executable Files and Source Code only under the
+                                             terms of this License, and You must include a copy of, or the Uniform
+                                             Resource Identifier for, this License with every copy of the Executable
+                                             Files or Source Code You distribute and ensure that anyone receiving such
+                                             Executable Files and Source Code agrees that the terms of this License
+                                             apply to such Executable Files and/or Source Code.<br> You may not offer or
+                                             impose any terms on the Work that alter or restrict the terms of this
+                                             License or the recipients' exercise of the rights granted hereunder. You
+                                             may not sublicense the Work. You must keep intact all notices that refer to
+                                             this License and to the disclaimer of warranties. You may not distribute
+                                             the Executable Files or Source Code with any technological measures that
+                                             control access or use of the Work in a manner inconsistent with the terms
+                                             of this License. <br>
+                                             6. You agree not to use the Work for illegal, immoral or improper purposes,
+                                             or on pages containing illegal, immoral or improper material. The Work is
+                                             subject to applicable export laws. You agree to comply with all such laws
+                                             and regulations that may apply to the Work after Your receipt of the Work.
+                                             <br>
+                                             6. Representations, Warranties and Disclaimer. THIS WORK IS PROVIDED "AS
+                                             IS", "WHERE IS" AND "AS AVAILABLE", WITHOUT ANY EXPRESS OR IMPLIED
+                                             WARRANTIES OR CONDITIONS OR GUARANTEES. YOU, THE USER, ASSUME ALL RISK IN
+                                             ITS USE, INCLUDING COPYRIGHT INFRINGEMENT, PATENT INFRINGEMENT,
+                                             SUITABILITY, ETC. AUTHOR EXPRESSLY DISCLAIMS ALL EXPRESS, IMPLIED OR
+                                             STATUTORY WARRANTIES OR CONDITIONS, INCLUDING WITHOUT LIMITATION,
+                                             WARRANTIES OR CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY OR
+                                             FITNESS FOR A PARTICULAR PURPOSE, OR ANY WARRANTY OF TITLE OR
+                                             NON-INFRINGEMENT, OR THAT THE WORK (OR ANY PORTION THEREOF) IS CORRECT,
+                                             USEFUL, BUG-FREE OR FREE OF VIRUSES. YOU MUST PASS THIS DISCLAIMER ON
+                                             WHENEVER YOU DISTRIBUTE THE WORK OR DERIVATIVE WORKS. <br>
+                                             7. Indemnity. You agree to defend, indemnify and hold harmless the Author
+                                             and the Publisher from and against any claims, suits, losses, damages,
+                                             liabilities, costs, and expenses (including reasonable legal or attorneys’
+                                             fees) resulting from or relating to any use of the Work by You.
+                                             8. Limitation on Liability. EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE
+                                             LAW, IN NO EVENT WILL THE AUTHOR OR THE PUBLISHER BE LIABLE TO YOU ON ANY
+                                             LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR
+                                             EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK OR
+                                             OTHERWISE, EVEN IF THE AUTHOR OR THE PUBLISHER HAS BEEN ADVISED OF THE
+                                             POSSIBILITY OF SUCH DAMAGES. <br>
+                                             9. Termination. <br>
+                                             1. This License and the rights granted hereunder will terminate
+                                             automatically upon any breach by You of any term of this License.
+                                             Individuals or entities who have received Derivative Works from You under
+                                             this License, however, will not have their licenses terminated provided
+                                             such individuals or entities remain in full compliance with those licenses.
+                                             Sections 1, 2, 6, 7, 8, 9, 10 and 11 will survive any termination of this
+                                             License. <br>
+                                             2. If You bring a copyright, trademark, patent or any other infringement
+                                             claim against any contributor over infringements You claim are made by the
+                                             Work, your License from such contributor to the Work ends automatically.
+                                             <br>
+                                             3. Subject to the above terms and conditions, this License is perpetual
+                                             (for the duration of the applicable copyright in the Work).<br>
+                                             Notwithstanding the above, the Author reserves the right to release the
+                                             Work under different license terms or to stop distributing the Work at any
+                                             time; provided, however that any such election will not serve to withdraw
+                                             this License (or any other license that has been, or is required to be,
+                                             granted under the terms of this License), and this License will continue in
+                                             full force and effect unless terminated as stated above. <br>
+                                             10. Publisher. The parties hereby confirm that the Publisher shall not,
+                                             under any circumstances, be responsible for and shall not have any
+                                             liability in respect of the subject matter of this License. The Publisher
+                                             makes no warranty whatsoever in connection with the Work and shall not be
+                                             liable to You or any party on any legal theory for any damages whatsoever,
+                                             including without limitation any general, special, incidental or
+                                             consequential damages arising in connection to this license. The Publisher
+                                             reserves the right to cease making the Work available to You at any time
+                                             without notice <br>
+                                             11. Miscellaneous <br>
+                                             1. This License shall be governed by the laws of the location of the head
+                                             office of the Author or if the Author is an individual, the laws of
+                                             location of the principal place of residence of the Author. <br>
+                                             2. If any provision of this License is invalid or unenforceable under
+                                             applicable law, it shall not affect the validity or enforceability of the
+                                             remainder of the terms of this License, and without further action by the
+                                             parties to this License, such provision shall be reformed to the minimum
+                                             extent necessary to make such provision valid and enforceable. <br>
+                                             3. No term or provision of this License shall be deemed waived and no
+                                             breach consented to unless such waiver or consent shall be in writing and
+                                             signed by the party to be charged with such waiver or consent. <br>
+                                             4. This License constitutes the entire agreement between the parties with
+                                             respect to the Work licensed herein. There are no understandings,
+                                             agreements or representations with respect to the Work not specified
+                                             herein. The Author shall not be bound by any additional provisions that may
+                                             appear in any communication from You. This License may not be modified
+                                             without the mutual written agreement of the Author and You. <br>
+                                        </div>
+                                   </div>
+
+                                   <div class="card">
+                                        <div class="card-header border-0">
+                                             <div class="d-flex justify-content-between">
+                                                  <h3 class="card-title">
+                                                       在 <b>早期版本</b> 的 OpenByte （3.0及以前版本）中我们使用了以下开源组件：
+
+                                                  </h3>
+
+                                             </div>
+                                             <small>
+                                                  <p style="color:red;">* 特殊声明：这些组件在当前版本的 OpenByte
+                                                       （4.0及以上版本）中并未使用任何相关源代码，但可能做了 <b>功能性参考</b> ，在此特别鸣谢。</p>
+                                             </small>
+                                        </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                             <div class="card">
+                                                  <div class="card-header border-0">
+                                                       <div class="d-flex justify-content-between">
+                                                            <h3 class="card-title">
+                                                                 Sakura Panel
+                                                            </h3>
+
+                                                       </div>
+                                                       <p style="color:red;">* 特殊声明：这些组件在当前版本的 OpenByte
+                                                            （4.0及以上版本）中并未使用任何相关源代码，但可能做了 <b>功能性参考</b> ，在此特别鸣谢。</p>
+                                                  </div>
+                                                  <div class="card-body" style="padding-top: 0;">
+
+                                                       <b>Link:</b> https://github.com/ZeroDream-CN/SakuraPanel<br>
+                                                       <b>License:</b><br>
+
+                                                       Sakura License<br>
+                                                       (C) 2020 ZeroDream<br>
+
+                                                       任何人拥有免费获得此软件的副本、自由修改、使用、合并以及分发原始副本的权利。<br>
+                                                       此软件仅限于个人非盈利使用，对于商业性质使用需要单独取得授权。<br>
+                                                       修改后的软件仅限私人使用，禁止二次发布本软件的修改版（不包含衍生插件和工具）。<br>
+                                                       禁止以任何形式出售、租赁、转租此源代码，禁止以本软件或本软件作者的名义进行任何商业活动行为。<br>
+                                                       上述版权声明和此许可声明应包含在所有本软件的副本或本软件的实质部分。<br>
+                                                       作者保留对本许可证内容的最终解释权。<br>
+
+                                                       <p><strong>* OpenByte 已经获得 SakuraPanel 的商业授权。</strong></p>
+                                                  </div>
+                                             </div>
+
+                                             <div class="card">
+                                                  <div class="card-header border-0">
+                                                       <div class="d-flex justify-content-between">
+                                                            <h3 class="card-title">
+                                                                 MDUI
+                                                            </h3>
+
+                                                       </div>
+                                                       <p style="color:red;">* 特殊声明：这些组件在当前版本的 OpenByte
+                                                            （4.0及以上版本）中并未使用任何相关源代码，但可能做了 <b>功能性参考</b> ，在此特别鸣谢。</p>
+                                                  </div>
+                                                  <div class="card-body" style="padding-top: 0;">
+
+                                                       <b>Link:</b> https://github.com/zdhxiong/mdui<br>
+                                                       <b>License:</b><br>
+                                                       The MIT License (MIT)<br><br>
+
+                                                       Copyright (c) 2016 zdhxiong@gmail.com<br><br>
+
+                                                       Permission is hereby granted, free of charge, to any person
+                                                       obtaining a copy<br>
+                                                       of this software and associated documentation files (the
+                                                       "Software"), to deal<br>
+                                                       in the Software without restriction, including without limitation
+                                                       the rights<br>
+                                                       to use, copy, modify, merge, publish, distribute, sublicense,
+                                                       and/or sell<br>
+                                                       copies of the Software, and to permit persons to whom the
+                                                       Software is<br>
+                                                       furnished to do so, subject to the following conditions:<br><br>
+
+                                                       The above copyright notice and this permission notice shall be
+                                                       included in all<br>
+                                                       copies or substantial portions of the Software.<br><br>
+
+                                                       THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+                                                       EXPRESS OR<br>
+                                                       IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+                                                       MERCHANTABILITY,<br>
+                                                       FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+                                                       SHALL THE<br>
+                                                       AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+                                                       OTHER<br>
+                                                       LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+                                                       ARISING FROM,<br>
+                                                       OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+                                                       DEALINGS IN THE<br>
+                                                       SOFTWARE.
+                                                  </div>
+                                             </div>
+
+                                             <div class="card">
+                                                  <div class="card-header border-0">
+                                                       <div class="d-flex justify-content-between">
+                                                            <h3 class="card-title">
+                                                                 SakuraFrp (Old Version 0.28.0 and below) - ZeroDream-CN
+                                                            </h3>
+
+                                                       </div>
+                                                       <p style="color:red;">* 特殊声明：这些组件在当前版本的 OpenByte
+                                                            （4.0及以上版本）中并未使用任何相关源代码，但可能做了 <b>功能性参考</b> ，在此特别鸣谢。</p>
+                                                  </div>
+                                                  <div class="card-body" style="padding-top: 0;">
+
+                                                       <b>Link:</b> https://github.com/ZeroDream-CN/SakuraFrp<br>
+                                                       <b>License:</b><br>
+                                                       Apache License<br>
+                                                       Version 2.0, January 2004<br>
+                                                       http://www.apache.org/licenses/<br><br>
+
+                                                       TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND
+                                                       DISTRIBUTION<br><br>
+
+                                                       1. Definitions.<br><br>
+
+                                                       "License" shall mean the terms and conditions for use,
+                                                       reproduction,<br>
+                                                       and distribution as defined by Sections 1 through 9 of this
+                                                       document.<br><br>
+
+                                                       "Licensor" shall mean the copyright owner or entity authorized
+                                                       by<br>
+                                                       the copyright owner that is granting the License.<br><br>
+
+                                                       "Legal Entity" shall mean the union of the acting entity and
+                                                       all<br>
+                                                       other entities that control, are controlled by, or are under
+                                                       common<br>
+                                                       control with that entity. For the purposes of this
+                                                       definition,<br>
+                                                       "control" means (i) the power, direct or indirect, to cause
+                                                       the...<br><br>
+                                                       >>> <a
+                                                            href="//github.com/ZeroDream-CN/SakuraFrp/blob/master/LICENSE"
+                                                            target="_blank">Looking For Full LICENSE</a>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-lg-2"></div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <!-- Footer -->
+          <footer class="main-footer">
+               <strong>
+                    Copyright © 2021-2023 <a href="//www.OpenByte.net/">OpenByte | ZGIT Network</a>
+                    .
+               </strong>
+               All rights reserved.&nbsp;&nbsp;<a href="//beian.miit.gov.cn/" target="_blank"> 湘ICP备2021009274号-3</a>
+               <div class="float-right d-none d-sm-inline-block">
+                    Powered by <b>ZGIT Network</b>
+                    | <b>OpenByte</b>
+               </div>
+          </footer>
+     </div>
+</body>
+
+</html>

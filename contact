@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: auto;">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="/assets/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/adminlte.min.css">
+
+    <link rel="stylesheet" href="/assets/policy.css">
+
+    <script src="/assets/jquery.min.js"></script>
+    <script src="/assets/bootstrap.bundle.min.js"></script>
+    <script src="/assets/adminlte.min.js"></script>
+
+    <title>联系方式 | OpenFrp开放映射</title>
+
+    <style>
+        nav a {
+            padding-left: 1rem !important;
+        }
+    </style>
+</head>
+
+<body class="layout-top-nav layout-navbar-fixed" style="height: auto;">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+            <div class="container">
+                <a href="/" class="navbar-brand">
+                    <span class="brand-text font-weight-light">OpenFrp</span>
+                </a>
+                <button class="navbar-toggler order-1" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="//console.openfrp.net/home/dashboard" class="nav-link">管理面板</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/policy" class="nav-link">服务条款</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/content" class="nav-link">内容策略</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/privacy" class="nav-link">隐私策略</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/contact" class="nav-link">联系方式</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/license" class="nav-link">开源组件</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="//github.com/ZGIT-Network/OPENFRP-APIDOC" class="nav-link">API文档</a>
+                        </li>
+                        <!--<li class="nav-item">
+                            <a href="/rule" class="nav-link">规则说明</a>
+                        </li>-->
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- Content -->
+        <div class="content-wrapper" style="min-height: 536px;">
+            <div class="content" style="padding-top: 16px;">
+                <style type="text/css">
+                    .card-title {
+                        padding-top: 4px;
+                    }
+
+                    ol>li:not(:last-child) {
+                        margin-bottom: 5px;
+                    }
+
+                    .card-body>ol {
+                        padding-left: 32px;
+                    }
+
+                    h5 {
+                        margin-top: 8px;
+                    }
+                </style>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            <div class="card">
+                                <div class="card-header border-0">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">
+                                            OpenFrp 项目组联系方式
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card-body" style="padding-top: 0;">
+                                    <h5></h5>
+                                    <b>有关相关技术支持：</b><br>
+                                    <br>
+                                    <ul>
+                                        <li>
+                                        请先使用搜索引擎进行故障排查或通过查阅用户文档解决，OpenFrp所有工作人员没有义务为您解决所有问题。<br><strong>Sakura
+                                            Frp及其他内网穿透工具的相关教程与 OpenFrp 基本通用。</strong><br>
+                                        <b style="color: red;">* 工作人员不会向您索取您的用户密钥</b><br>
+                                        <b style="color: red;">* 购买本站任何增值服务不会获得任何额外技术支持。</b><br>
+                                            <ul><li>技术支持邮箱：<br>
+                                        <a href="mailto:support@zyghit.cn">support@zyghit.cn</a></li>
+                                        
+                                            <li>OpenFrp用户反馈、交流群:<br>
+
+
+                                        一群：<a href="//jq.qq.com/?_wv=1027&k=yCM0T8Y7"
+                                                target="_blank">872851356</a> <small>高级(Geek)用户群</small><br>
+                                        
+                                        二群：<a href="//jq.qq.com/?_wv=1027&k=ju2Ki3Fn"
+                                                target="_blank">149163336</a><br>
+                                        三群：<a href="//jq.qq.com/?_wv=1027&k=CnQINlkJ"
+                                                target="_blank">835104058</a> <br>
+                                        </li>
+                                        
+                                            </ul>
+                                        </li>
+
+                                        <li>
+                                            <b>非法违规内容举报方式：</b><br />
+                                            如果您需要举报滥用或违规内容，您可以直接通过下方邮件或者通过QQ群/QQ号码直接联系我们<br>
+                                            If you need to report abuse or violation of content, you can directly
+                                            contact us via email or QQ group/QQ number.
+                                            <br>
+                                            <ul>
+                                                <li>可以添加上方的本站官方交流群联系管理员举报</li>
+                                                <!--<li><a href="mailto:report@openfrp.net">report@openfrp.net</a></li>-->
+                                                <li><a href="mailto:support@zyghit.cn">support@zyghit.cn</a></li>
+                                                <li><a href="mailto:yunmoan@zyghit.cn">yunmoan@zyghit.cn</a></li>
+                                                <li><a href="//www.zyghit.cn/report" target="_blank"
+                                                        rel="nofollow">至远光辉信息技术廉正举报</a> (仅受理内部成员违规违法行为举报)</li>
+                                                <li><a href="//www.12377.cn/" target="_blank"
+                                                        rel="nofollow">网上有害信息举报专区</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li>
+                                            <b>用户问题、意见反馈方式: </b>
+                                            <br>
+                                            <ul>
+                                                <li>建议/意见反馈建议添加上方的本站官方交流群</li>
+                                                <li><a href="mailto:support@openfrp.net">support@zyghit.cn</a> (非极特殊情况勿扰)</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <b>软件问题反馈方式：</b>
+                                            <br>
+                                            <ul>
+                                                <li><a href="mailto:support@zyghit.cn">support@zyghit.cn</a></li>
+                                                <li>建议/意见反馈建议添加上方的本站官方交流群</li>
+                                                <li>OpenFrp Lanucher 开发者 越越: QQQ 2777174292 (非极特殊情况勿扰)</li>
+                                                <li>OpenFrp产品经理: QQ 2816301852  (非极特殊情况勿扰)</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <b>网页管理面板问题反馈方式：</b>
+                                            <br>
+                                            <ul>
+                                                <li><a href="mailto:support@zyghit.cn">support@zyghit.cn</a></li>
+                                                <li>OpenFrp 4.0 开发者 <a href="//zhou.icu" target="_blank">🥕zhou</a>: QQ 554231592 (非极特殊情况勿扰)</li>
+                                                <li>OpenFrp网页管理员(站长) 云默安: yunmoan@zyghit.cn (非极特殊情况勿扰)</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <b>其他内容/问题联系方式：</b>
+                                            <br>
+                                            <ul>
+                                                <li><a href="mailto:support@zyghit.cn">support@zyghit.cn</a></li>
+                                                <li>建议/意见反馈请添加上方的本站官方交流群</li>
+                                                <li>OpenFrp负责人(站长) 云默安: yunmoan@zyghit.cn (非极特殊情况勿扰)</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <hr>
+                                    OpenFrp 由 至远光辉信息技术(Network) 与 衡阳百胜信息科技有限公司
+                                    共同运营<br><strong>湘ICP备2021009274号-3</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="main-footer">
+            <strong>
+                Copyright © 2021-2023 <a href="//www.openfrp.net/">OpenFrp | ZGIT Network</a>
+                .
+            </strong>
+            All rights reserved.&nbsp;&nbsp;<a href="//beian.miit.gov.cn/" target="_blank"> 湘ICP备2021009274号-3</a>
+            <div class="float-right d-none d-sm-inline-block">
+                Powered by <b>ZGIT Network</b>
+                | <b>OpenFrp</b>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

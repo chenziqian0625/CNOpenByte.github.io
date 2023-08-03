@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: auto;">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="/assets/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/adminlte.min.css">
+
+    <link rel="stylesheet" href="/assets/policy.css">
+
+    <script src="/assets/jquery.min.js"></script>
+    <script src="/assets/bootstrap.bundle.min.js"></script>
+    <script src="/assets/adminlte.min.js"></script>
+
+
+    <title>服务条款 | OpenByte开放映射</title>
+
+    <style>
+        nav a {
+            padding-left: 1rem !important;
+        }
+    </style>
+</head>
+
+<body class="layout-top-nav layout-navbar-fixed" style="height: auto;">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+            <div class="container">
+                <a href="/" class="navbar-brand">
+                    <span class="brand-text font-weight-light">OpenByte</span>
+                </a>
+                <button class="navbar-toggler order-1" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="//console.OpenByte.net/home/dashboard" class="nav-link">管理面板</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/policy" class="nav-link">服务条款</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/content" class="nav-link">内容策略</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/privacy" class="nav-link">隐私策略</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/contact" class="nav-link">联系方式</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/license" class="nav-link">开源组件</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="//github.com/ZGIT-Network/OpenByte-APIDOC" class="nav-link">API文档</a>
+                        </li>
+                        <!--<li class="nav-item">
+                            <a href="/rule" class="nav-link">规则说明</a>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Content -->
+        <div class="content-wrapper" style="min-height: 536px;">
+            <div class="content" style="padding-top: 16px;">
+                <style type="text/css">
+                    .card-title {
+                        padding-top: 4px;
+                    }
+
+                    .content ul {
+                        margin-top: 8px;
+                    }
+
+                    h5 {
+                        margin-top: 8px;
+                    }
+                </style>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            <div class="card">
+                                <div class="card-header border-0">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">
+                                            OpenByte 服务条款 -
+                                            <b>2023/6/22 更新</b>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card-body" style="padding-top: 0;">
+                                    本服务条款系 OpenByte (下称本平台) 与所有使用本平台所提供服务的主体 (下称用户)
+                                    针对本平台的使用订立的有效合约。在使用本平台提供的一切服务前，请务必仔细阅读并理解透彻本声明。用户选择使用本平台即表示完全认可此协议及其可能随时更新的内容
+                                    <br>
+                                    <b>本平台保留随时修改服务条款的权利，用户在使用本平台提供的服务时，有必要对最新的服务条款进行仔细阅读和重新确认，当发生有关争议时，以最新的服务条款为准</b>
+                                    <br>最终解释权归 <b>至远光辉信息技术</b> 与 <b>衡阳百胜信息科技有限公司</b> 所有
+                                    </div>
+                                   </div>
+                                   <div class="card">
+                                       <div class="card-header border-0">
+                                    <div class="d-flex justify-content-between">
+                                        
+                                    </div>
+                                </div>
+                                        <div class="card-body" style="padding-top: 0;">
+                                    <h5><b>服务内容及使用须知</b></h5>
+                                    <ol>
+                                        <li>
+                                            本平台是一个提供基于 Frp (Fast Reverse Proxy) 的内网穿透服务的平台
+                                        </li>
+                                        <li>
+                                            本平台将向用户提供可用于内网穿透的服务器 (下称节点) 使用权以及由本平台开发的启动器、由本平台修改并重新发布的 frpc 客户端。
+                                        </li>
+                                        <li>
+                                            <b>用户在使用本平台所提供服务时, 必须遵循本平台的 <a href="/content">内容策略</a>。</b>
+                                            本平台将定期或不定期检查用户通过本平台服务器提供的内容，并对不符合内容策略的内容进行处理。
+                                        </li>
+                                        <li>
+                                            本平台<b>拒绝</b>任何人利用本平台或因使用本平台而侵犯他人合法权益、违反有关法律法规的行为，但并不保证不会发生此类行为或类似行为。本平台将依据法律采取必要的措施防止发生前述各类行为或降低发生这类行为的可能性或者降低由此造成的损失及其后果。<br />
+                                            对于因前述各类情形而产生的 <b>任何纠纷</b> ，将由权利受到侵害之人和侵权方依据有关法律通过适当的方式直接加以解决，本平台及其所有者 <b>不参与其中</b>；
+                                            对于因此类行为产生的各类纠纷之任何责任和后果，由相关责任方承担，本平台及其管理者 <b>不承担任何责任及后果</b>。
+                                        </li>
+                                        <li>
+                                            本平台尊重并保护用户的个人隐私，具体细节可以参阅我们的 <a href="/privacy">隐私策略</a>
+                                        </li>
+                                        <li>
+                                            <b>
+                                                本平台的所有用户在平台内所进行的一切操作均为其个人行为，本平台不会对这些行为进行监督或干涉，也不对其行为承担任何责任。
+                                            </b>
+                                            若其他用户的行为侵犯到您的权益，请及时点击页面顶部的 "联系我们" 联系管理员进行处理
+                                        </li>
+                                        <li>
+                                            <b>
+                                                若您属于相关法律法规中规定的未成年人，在使用本平台的产品或服务前，应事先取得您的家长或法定监护人的同意并在家长或法定监护人的陪同下使用
+                                            </b>
+                                        </li>
+                                        <li>
+                                            除本平台注明之服务条款外，其他一切因使用本平台而可能遭致的意外、疏忽、侵权及其造成的损失(如:自身密码保管不当导致账户被盗用，产生经济损失等)，本平台对其概不负责，也不承担任何法律责任
+                                        </li>
+                                        <li>
+                                            注册本平台时的用户名，不应当使用敏感词汇。
+                                        </li>
+
+                                    </ol>
+                                    <h5><b>免责声明</b></h5>
+                                    <ol>
+                                        <li>
+                                            本平台需定期或不定期对平台本身或各个节点进行升级、维护，本平台将尽可能事先于首页公告处通知用户，但因此类情况造成用户服务受到影响，本平台无需为此承担任何责任。
+                                        </li>
+                                        <li>
+                                            若发生用户违背本协议约定或违反法律、法规规定之情形，由用户自行承担一切法律、经济后果，本平台不承担任何责任。
+                                        </li>
+                                        <li>
+                                            在本协议期限内由不可抗力因素 (即不可预见（或虽可预见，但其发生或后果不可控制、避免），非任何一方所能控制且使任何一方无法完全履行本协议的事件)
+                                            造成的任何形式的损失，本平台将不承担任何责任
+                                            <br>
+                                            鉴于互联网之特殊性质，不可抗力亦包括下列影响互联网正常运行之情形：黑客攻击；电信部门技术调整导致之重大影响；因政府管制而造成之暂时关闭；病毒侵袭；网络故障、域名解析故障或其他网络设备或技术提供商的服务延迟、服务障碍或任何其他类似事件。
+                                        </li>
+                                        <li>
+                                            用户进行下列行为造成的任何形式损失，本平台不承担任何责任:
+                                            <ul style="margin-top:0">
+                                                <li>
+                                                    用户私下进行帐号交易、二次销售服务等行为
+                                                </li>
+                                                <li>
+                                                    在使用本平台时未按照文档及平台说明进行操作
+                                                </li>
+                                                <li>
+                                                    使用本平台服务时未设置妥善的安全策略而造成的各类损失
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ol>
+                                    <h5><b>滥用界定</b></h5>
+                                    用户在使用本平台所提供服务时，若产生下列行为之一即可能被判定为滥用，若违反将永久封禁帐号
+                                    <ol>
+                                        <li>
+                                            提供不真实的个人资料 (包括电子邮箱、手机号码、实名认证信息) 或冒用他人信息
+                                        </li>
+                                        <li>
+                                            违反本平台的内容策略
+                                        </li>
+                                        <li>
+                                            单个用户注册或使用大量账户
+                                        </li>
+                                        <li>
+                                            任何使用OpenByte搭建非法服务，或者因自己的言论导致节点服务器遭受攻击的
+                                        </li>
+                                        <li>
+                                            长时间占满或大量占用带宽
+                                        </li>
+                                        <li>
+                                            长期超出大量流量
+                                        </li>
+                                        <li>
+                                            倒卖、非法分发、盗用账号或出售本平台账号
+                                        </li>
+                                        <li>
+                                            在使用服务时导致节点遭受大规模攻击或借助节点的薄弱防御对外宣称自己的服务无懈可击
+                                        </li>
+                                        <li>
+                                            其他被本平台认定为滥用的行为
+                                        </li>
+                                    </ol>
+                                    <h5><b>服务变更、中断或终止</b></h5>
+                                    本平台随时可能调整向用户提供的服务内容并不另行通知。<br>
+                                    如发生下列任何一种情形，本平台有权随时中断或终止向用户提供服务（包括收费服务）而无需对用户或任何第三方承担任何责任：
+                                    <ul style="margin-top:0">
+                                        <li>
+                                            用户被判定为滥用本平台服务
+                                        </li>
+                                        <li>
+                                            随意违反有关声明的规定
+                                        </li>
+                                        <li>
+                                            使用本平台服务穿透 <a href="/content/">内容策略</a> 所禁止的内容
+                                        </li>
+                                        <li>
+                                            倒卖、出售本平台账户，恶意爆破服务器节点
+                                        </li>
+                                        <li>
+                                            其他本平台认定需要终止向用户提供服务的情形
+                                        </li>
+                                    </ul>
+                                    本平台终止向用户提供服务后，用户可联系本平台管理员咨询具体原因或进行申诉。若申诉失败，本平台管理人员可以自行决定是否为用户的付费服务提供补偿。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="main-footer">
+            <strong>
+                Copyright © 2021-2023 <a href="//www.OpenByte.net/">OpenByte | ZGIT Network</a>
+                .
+            </strong>
+            All rights reserved.&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" target="_blank"> 湘ICP备2021009274号-3</a>
+            <div class="float-right d-none d-sm-inline-block">
+                Powered by <b>ZGIT Network</b>
+                | <b>OpenByte</b>
+            </div>
+        </footer>
+    </div>
+
+
+
+</body>
+
+</html>
